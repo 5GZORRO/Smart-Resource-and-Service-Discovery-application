@@ -1,3 +1,9 @@
+Update 03/03/2021
+-added resource models
+-application to make or change published models
+-Connection to Spark framework
+-ML simple example (classification and supervised model creation)
+
 Instructions
 
 docker build -t python-api:latest .
