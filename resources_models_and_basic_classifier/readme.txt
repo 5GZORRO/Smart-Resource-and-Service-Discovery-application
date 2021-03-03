@@ -11,3 +11,4 @@ Builded with db synthesizer\mongo_resource_model_synthesizer_v1.py
 
 database connection with SPARK:SPARK connector\mongo_to_spark_dataframe_converter_v1.py
 
+simple classification and ML example at: resources_models_and_basic_cclassifier
