@@ -1,0 +1,4137 @@
+[{
+  "_id": {
+    "$oid": "603f3da8dfd4ced302193558"
+  },
+  "id": 111638,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "48",
+      "href": "DID2502",
+      "role": "Regulator",
+      "name": "Spain Communications Authority (CNMC)"
+    },
+    "Operator": {
+      "id": "48",
+      "href": "DID2502",
+      "role": "Operator",
+      "name": "ORANGE"
+    }
+  },
+  "price": "30 euros",
+  "resourceSpecification": {
+    "id": "f2e87d8d-0984-4ffa-83e6-defc761f4a6c",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "13f1b6de-3bb6-466a-9b2f-de0121b36ba8",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2400
+        }
+      },
+      "bandwidth": {
+        "id": "bf810a42-59a6-495a-940f-8e6fca64b622",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da8dfd4ced302193559"
+  },
+  "id": 902022,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-08-01/21:33:14",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2020/10/27",
+    "startDateTime": "2020/05/6"
+  },
+  "relatedParty": {
+    "id": "39",
+    "href": "DID4997",
+    "role": "Regulator",
+    "name": "Spain Communications Authority (CNMC)"
+  },
+  "price": "200 euros",
+  "resourceSpecification": {
+    "id": "fc201a59-d156-4ffb-8a8d-a7e76854a839",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "34491a27-e09c-4aa2-b274-4d96fcf755c5",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2400
+        }
+      },
+      "bandwidth": {
+        "id": "5cc6604e-988a-4e1a-9a2f-51aad66ec954",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 10
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da8dfd4ced30219355a"
+  },
+  "id": 140928,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-01-21/4:45:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2020/10/27",
+    "startDateTime": "2020/05/6"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Regulator",
+      "name": "Spain Communications Authority (CNMC)"
+    },
+    "Operator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Operator",
+      "name": "ORANGE"
+    }
+  },
+  "price": "200 euros",
+  "resourceSpecification": {
+    "id": "f2e87d8d-0984-4ffa-83e6-defc761f4a6c",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "13f1b6de-3bb6-466a-9b2f-de0121b36ba8",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2400
+        }
+      },
+      "bandwidth": {
+        "id": "bf810a42-59a6-495a-940f-8e6fca64b622",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da8dfd4ced30219355b"
+  },
+  "id": 560568,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-08-01/21:33:14",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2020/10/27",
+    "startDateTime": "2020/05/6"
+  },
+  "relatedParty": {
+    "id": "24",
+    "href": "DID6566",
+    "role": "Regulator",
+    "name": "Malta Communications Authority (MCA)"
+  },
+  "price": "100 euros",
+  "resourceSpecification": {
+    "id": "a07dc90c-c92d-4e32-bd6b-40b3ab99110c",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "5cf3694e-ccfb-471d-977c-7574dbf238cb",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2340
+        }
+      },
+      "bandwidth": {
+        "id": "71e6399a-c3ce-4ef8-aef9-3ef63bd01db6",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da8dfd4ced30219355c"
+  },
+  "id": 918042,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/07/12",
+    "startDateTime": "2021/04/23"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Regulator",
+      "name": "Spain Communications Authority (CNMC)"
+    },
+    "Operator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Operator",
+      "name": "ORANGE"
+    }
+  },
+  "price": "100 euros",
+  "resourceSpecification": {
+    "id": "b0781927-6132-4a8c-ad08-336f943899a5",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "598bd972-9984-48ae-9df8-1a59447cbbd8",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 1340
+        }
+      },
+      "bandwidth": {
+        "id": "c3d650a0-2f08-46ee-9964-35ead531a148",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da8dfd4ced30219355d"
+  },
+  "id": 736559,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-01-21/4:45:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Regulator",
+      "name": "Spain Communications Authority (CNMC)"
+    },
+    "Operator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Operator",
+      "name": "ORANGE"
+    }
+  },
+  "price": "100 euros",
+  "resourceSpecification": {
+    "id": "2eab2e10-0bb7-491d-8f33-597c8af5e0c9",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "3b96caee-6a6a-43fd-bf02-adefce254da1",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2350
+        }
+      },
+      "bandwidth": {
+        "id": "f50dab3b-0060-45b0-a9f8-da8a36a407f5",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 10
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da8dfd4ced30219355e"
+  },
+  "id": 217808,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-08-01/21:33:14",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2020/10/27",
+    "startDateTime": "2020/05/6"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "48",
+      "href": "DID2502",
+      "role": "Regulator",
+      "name": "Spain Communications Authority (CNMC)"
+    },
+    "Operator": {
+      "id": "48",
+      "href": "DID2502",
+      "role": "Operator",
+      "name": "ORANGE"
+    }
+  },
+  "price": "50 euros",
+  "resourceSpecification": {
+    "id": "09d60cad-5f05-4d42-af71-cb325cd34f68",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "fcc687bd-2741-4c40-a1a4-4d2921b163d4",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2350
+        }
+      },
+      "bandwidth": {
+        "id": "709ce08c-1873-488e-950a-a89feb48cd28",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 15
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da8dfd4ced30219355f"
+  },
+  "id": 235576,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-01-21/4:45:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Regulator",
+      "name": "Spain Communications Authority (CNMC)"
+    },
+    "Operator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Operator",
+      "name": "ORANGE"
+    }
+  },
+  "price": "50 euros",
+  "resourceSpecification": {
+    "id": "5eeb6f04-f28f-4744-96b9-769a61dfaa2d",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "b4e42f62-9b9c-447e-81e1-e9974a0d8da5",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2340
+        }
+      },
+      "bandwidth": {
+        "id": "8570ed54-62e9-46e8-9a4e-89b812adf97d",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 10
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da8dfd4ced302193560"
+  },
+  "id": 825797,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "id": "95",
+    "href": "DID1728",
+    "role": "Regulator",
+    "name": "Spain Communications Authority (CNMC)"
+  },
+  "price": "30 euros",
+  "resourceSpecification": {
+    "id": "235fcace-1093-4ebb-b49f-ce6a7d39093e",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "e29ed9f5-80b9-44f6-8c0d-efa34605e6af",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2400
+        }
+      },
+      "bandwidth": {
+        "id": "709ce08c-1873-488e-950a-a89feb48cd28",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 15
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da8dfd4ced302193561"
+  },
+  "id": 710868,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2020/10/27",
+    "startDateTime": "2020/05/6"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Regulator",
+      "name": "Spain Communications Authority (CNMC)"
+    },
+    "Operator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Operator",
+      "name": "ORANGE"
+    }
+  },
+  "price": "30 euros",
+  "resourceSpecification": {
+    "id": "0499d452-53be-46ed-b413-4ad44ce2aa62",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "73acd29f-ecc0-4d1b-ad75-f94ed0ea8f2b",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 1340
+        }
+      },
+      "bandwidth": {
+        "id": "c3134158-bb05-491e-b273-666d9e7ec4c5",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 15
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da8dfd4ced302193562"
+  },
+  "id": 973061,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-01-21/4:45:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/07/12",
+    "startDateTime": "2021/04/23"
+  },
+  "relatedParty": {
+    "id": "97",
+    "href": "DID9658",
+    "role": "Regulator",
+    "name": "Malta Communications Authority (MCA)"
+  },
+  "price": "50 euros",
+  "resourceSpecification": {
+    "id": "25f38c8b-bd93-4099-a6df-e64851a05b98",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "a86640f3-74e5-46f1-8e67-cc9b5e0e31b5",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2350
+        }
+      },
+      "bandwidth": {
+        "id": "54e94592-dfc7-4702-bfac-b673257ceea7",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 15
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da8dfd4ced302193563"
+  },
+  "id": 11666,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-01-21/4:45:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/07/12",
+    "startDateTime": "2021/04/23"
+  },
+  "relatedParty": {
+    "id": "79",
+    "href": "DID4662",
+    "role": "Regulator",
+    "name": "Spain Communications Authority (CNMC)"
+  },
+  "price": "30 euros",
+  "resourceSpecification": {
+    "id": "33f3c022-d4d9-4ccb-b04c-6e7ebfca5b98",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "5ace385c-fba2-4e81-83b1-9093c5b79b1f",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2340
+        }
+      },
+      "bandwidth": {
+        "id": "37eae9d2-77f8-49a5-90cb-2191fbb15f5c",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 10
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da8dfd4ced302193564"
+  },
+  "id": 473540,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-01-21/4:45:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Regulator",
+      "name": "Spain Communications Authority (CNMC)"
+    },
+    "Operator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Operator",
+      "name": "ORANGE"
+    }
+  },
+  "price": "200 euros",
+  "resourceSpecification": {
+    "id": "29ac1166-af7e-447a-96d9-14fc76c8793e",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "6c9baa94-aa58-48f4-8433-b37cef58a633",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 1340
+        }
+      },
+      "bandwidth": {
+        "id": "f50dab3b-0060-45b0-a9f8-da8a36a407f5",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 10
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da8dfd4ced302193565"
+  },
+  "id": 55153,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-08-01/21:33:14",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "90",
+      "href": "DID1597",
+      "role": "Regulator",
+      "name": "Greece Communications Authority (EETT)"
+    },
+    "Operator": {
+      "id": "90",
+      "href": "DID1597",
+      "role": "Operator",
+      "name": "WIND"
+    }
+  },
+  "price": "100 euros",
+  "resourceSpecification": {
+    "id": "6bdc2da7-bd27-45eb-8ab0-0e7b01f7d033",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "34491a27-e09c-4aa2-b274-4d96fcf755c5",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2400
+        }
+      },
+      "bandwidth": {
+        "id": "2a2c3c45-2f19-4f08-bd1a-6ec88dc17dbc",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 15
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da8dfd4ced302193566"
+  },
+  "id": 478547,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-01-21/4:45:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "id": "66",
+    "href": "DID386",
+    "role": "Regulator",
+    "name": "Greece Communications Authority (EETT)"
+  },
+  "price": "50 euros",
+  "resourceSpecification": {
+    "id": "2a9463f7-4996-434d-9344-121e0d76f2f2",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "66197b48-e301-4a16-b259-70525a3769f8",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2340
+        }
+      },
+      "bandwidth": {
+        "id": "bf8f27c7-e708-4a29-b641-3005a9337350",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da8dfd4ced302193567"
+  },
+  "id": 838199,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/07/12",
+    "startDateTime": "2021/04/23"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Regulator",
+      "name": "Spain Communications Authority (CNMC)"
+    },
+    "Operator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Operator",
+      "name": "ORANGE"
+    }
+  },
+  "price": "200 euros",
+  "resourceSpecification": {
+    "id": "f3d9596f-0e63-45e2-8a3f-d988fc435622",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "e38972de-a35e-4812-99a4-12d7a5c9670e",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 1340
+        }
+      },
+      "bandwidth": {
+        "id": "14014863-9cad-4901-9d1e-54bfdc0a6368",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced302193568"
+  },
+  "id": 285453,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "id": "45",
+    "href": "DID6074",
+    "role": "Regulator",
+    "name": "Malta Communications Authority (MCA)"
+  },
+  "price": "200 euros",
+  "resourceSpecification": {
+    "id": "03e72587-ade6-4891-86fb-1d4b396a0f7c",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "5e694acc-9704-4fd3-aba2-43aaedf4d9bf",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2350
+        }
+      },
+      "bandwidth": {
+        "id": "14014863-9cad-4901-9d1e-54bfdc0a6368",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced302193569"
+  },
+  "id": 225085,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-08-01/21:33:14",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/07/12",
+    "startDateTime": "2021/04/23"
+  },
+  "relatedParty": {
+    "id": "97",
+    "href": "DID9658",
+    "role": "Regulator",
+    "name": "Malta Communications Authority (MCA)"
+  },
+  "price": "50 euros",
+  "resourceSpecification": {
+    "id": "15ec358e-73f4-4d9c-9bd1-57b991672ef0",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "3b96caee-6a6a-43fd-bf02-adefce254da1",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2350
+        }
+      },
+      "bandwidth": {
+        "id": "6857a806-4500-4127-9d5a-0fdc8def6248",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 10
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced30219356a"
+  },
+  "id": 741660,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-01-21/4:45:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "90",
+      "href": "DID1597",
+      "role": "Regulator",
+      "name": "Greece Communications Authority (EETT)"
+    },
+    "Operator": {
+      "id": "90",
+      "href": "DID1597",
+      "role": "Operator",
+      "name": "WIND"
+    }
+  },
+  "price": "50 euros",
+  "resourceSpecification": {
+    "id": "29ac1166-af7e-447a-96d9-14fc76c8793e",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "6c9baa94-aa58-48f4-8433-b37cef58a633",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 1340
+        }
+      },
+      "bandwidth": {
+        "id": "f50dab3b-0060-45b0-a9f8-da8a36a407f5",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 10
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced30219356b"
+  },
+  "id": 724873,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/07/12",
+    "startDateTime": "2021/04/23"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Regulator",
+      "name": "Spain Communications Authority (CNMC)"
+    },
+    "Operator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Operator",
+      "name": "ORANGE"
+    }
+  },
+  "price": "100 euros",
+  "resourceSpecification": {
+    "id": "f955117b-2e3d-4639-bb25-ccf139a58def",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "6c9baa94-aa58-48f4-8433-b37cef58a633",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 1340
+        }
+      },
+      "bandwidth": {
+        "id": "9dcfeb21-7bc6-4525-94f4-d788822c6eae",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 10
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced30219356c"
+  },
+  "id": 696593,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2020/10/27",
+    "startDateTime": "2020/05/6"
+  },
+  "relatedParty": {
+    "id": "24",
+    "href": "DID6566",
+    "role": "Regulator",
+    "name": "Malta Communications Authority (MCA)"
+  },
+  "price": "200 euros",
+  "resourceSpecification": {
+    "id": "27ebf111-4ed1-43bd-92be-87d548fdfcae",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "271c8f56-cb58-4893-b768-52ae9ed63007",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2400
+        }
+      },
+      "bandwidth": {
+        "id": "bf8f27c7-e708-4a29-b641-3005a9337350",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced30219356d"
+  },
+  "id": 807124,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-08-01/21:33:14",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/07/12",
+    "startDateTime": "2021/04/23"
+  },
+  "relatedParty": {
+    "id": "90",
+    "href": "DID1597",
+    "role": "Regulator",
+    "name": "Greece Communications Authority (EETT)"
+  },
+  "price": "50 euros",
+  "resourceSpecification": {
+    "id": "72aba707-8499-47cb-956f-9a33870466ef",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "341fcaa0-485b-464f-8d96-e16aecde8ce7",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2400
+        }
+      },
+      "bandwidth": {
+        "id": "800245ed-91c4-448d-b4eb-31ebc81800c7",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 10
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced30219356e"
+  },
+  "id": 343688,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-08-01/21:33:14",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/07/12",
+    "startDateTime": "2021/04/23"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Regulator",
+      "name": "Spain Communications Authority (CNMC)"
+    },
+    "Operator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Operator",
+      "name": "ORANGE"
+    }
+  },
+  "price": "50 euros",
+  "resourceSpecification": {
+    "id": "ca085610-5162-4710-b4fb-0accfdb8fff4",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "13f1b6de-3bb6-466a-9b2f-de0121b36ba8",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2400
+        }
+      },
+      "bandwidth": {
+        "id": "800245ed-91c4-448d-b4eb-31ebc81800c7",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 10
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced30219356f"
+  },
+  "id": 134792,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-08-01/21:33:14",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "90",
+      "href": "DID1597",
+      "role": "Regulator",
+      "name": "Greece Communications Authority (EETT)"
+    },
+    "Operator": {
+      "id": "90",
+      "href": "DID1597",
+      "role": "Operator",
+      "name": "WIND"
+    }
+  },
+  "price": "30 euros",
+  "resourceSpecification": {
+    "id": "b2e8407f-bff6-4529-8a9d-5b35d0c4c734",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "10cb88f0-35f7-47e9-8bab-326eda5b1044",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 1340
+        }
+      },
+      "bandwidth": {
+        "id": "93cbfca1-b418-4dcd-aae5-58f85bfa26f9",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced302193570"
+  },
+  "id": 399568,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/07/12",
+    "startDateTime": "2021/04/23"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "90",
+      "href": "DID1597",
+      "role": "Regulator",
+      "name": "Greece Communications Authority (EETT)"
+    },
+    "Operator": {
+      "id": "90",
+      "href": "DID1597",
+      "role": "Operator",
+      "name": "WIND"
+    }
+  },
+  "price": "200 euros",
+  "resourceSpecification": {
+    "id": "8686308c-0d3e-4af4-bed3-cbf1f0c75325",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "73acd29f-ecc0-4d1b-ad75-f94ed0ea8f2b",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 1340
+        }
+      },
+      "bandwidth": {
+        "id": "f50dab3b-0060-45b0-a9f8-da8a36a407f5",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 10
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced302193571"
+  },
+  "id": 76240,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2020/10/27",
+    "startDateTime": "2020/05/6"
+  },
+  "relatedParty": {
+    "id": "97",
+    "href": "DID9658",
+    "role": "Regulator",
+    "name": "Malta Communications Authority (MCA)"
+  },
+  "price": "200 euros",
+  "resourceSpecification": {
+    "id": "61d5ee22-9e20-4c25-9ad6-1cd32faa46c2",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "9e1efff6-79b5-47c2-a9cf-38ecfc33d1b9",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2350
+        }
+      },
+      "bandwidth": {
+        "id": "1aa2de8a-b4ad-4c69-ac89-c992a86e8290",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 15
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced302193572"
+  },
+  "id": 564624,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-08-01/21:33:14",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/07/12",
+    "startDateTime": "2021/04/23"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "90",
+      "href": "DID1597",
+      "role": "Regulator",
+      "name": "Greece Communications Authority (EETT)"
+    },
+    "Operator": {
+      "id": "90",
+      "href": "DID1597",
+      "role": "Operator",
+      "name": "WIND"
+    }
+  },
+  "price": "100 euros",
+  "resourceSpecification": {
+    "id": "ee5365b3-3cf7-4f76-8a03-10abc8dfae26",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "e184a3a1-9cc6-43a6-8fc1-745eda65abda",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 1340
+        }
+      },
+      "bandwidth": {
+        "id": "93cbfca1-b418-4dcd-aae5-58f85bfa26f9",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced302193573"
+  },
+  "id": 267507,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-08-01/21:33:14",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2020/10/27",
+    "startDateTime": "2020/05/6"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Regulator",
+      "name": "Spain Communications Authority (CNMC)"
+    },
+    "Operator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Operator",
+      "name": "ORANGE"
+    }
+  },
+  "price": "50 euros",
+  "resourceSpecification": {
+    "id": "39863e71-f733-4215-bc8e-24863d1c5826",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "38713d8e-b425-4ed6-8494-ffa5cb17bceb",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2350
+        }
+      },
+      "bandwidth": {
+        "id": "5cc6604e-988a-4e1a-9a2f-51aad66ec954",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 10
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced302193574"
+  },
+  "id": 659822,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2020/10/27",
+    "startDateTime": "2020/05/6"
+  },
+  "relatedParty": {
+    "id": "39",
+    "href": "DID4997",
+    "role": "Regulator",
+    "name": "Spain Communications Authority (CNMC)"
+  },
+  "price": "30 euros",
+  "resourceSpecification": {
+    "id": "f955117b-2e3d-4639-bb25-ccf139a58def",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "6c9baa94-aa58-48f4-8433-b37cef58a633",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 1340
+        }
+      },
+      "bandwidth": {
+        "id": "9dcfeb21-7bc6-4525-94f4-d788822c6eae",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 10
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced302193575"
+  },
+  "id": 33237,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-08-01/21:33:14",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/07/12",
+    "startDateTime": "2021/04/23"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "48",
+      "href": "DID2502",
+      "role": "Regulator",
+      "name": "Spain Communications Authority (CNMC)"
+    },
+    "Operator": {
+      "id": "48",
+      "href": "DID2502",
+      "role": "Operator",
+      "name": "ORANGE"
+    }
+  },
+  "price": "50 euros",
+  "resourceSpecification": {
+    "id": "c7809aee-b343-40fb-bcf1-298168c084ae",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "9e6014f8-41a5-45c1-925b-6ffed10a8cb6",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2350
+        }
+      },
+      "bandwidth": {
+        "id": "11653b4f-4209-4511-8c58-13c6d274e640",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 10
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced302193576"
+  },
+  "id": 844397,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-08-01/21:33:14",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2020/10/27",
+    "startDateTime": "2020/05/6"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "48",
+      "href": "DID2502",
+      "role": "Regulator",
+      "name": "Spain Communications Authority (CNMC)"
+    },
+    "Operator": {
+      "id": "48",
+      "href": "DID2502",
+      "role": "Operator",
+      "name": "ORANGE"
+    }
+  },
+  "price": "50 euros",
+  "resourceSpecification": {
+    "id": "b2e8407f-bff6-4529-8a9d-5b35d0c4c734",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "10cb88f0-35f7-47e9-8bab-326eda5b1044",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 1340
+        }
+      },
+      "bandwidth": {
+        "id": "93cbfca1-b418-4dcd-aae5-58f85bfa26f9",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced302193577"
+  },
+  "id": 904084,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-01-21/4:45:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2020/10/27",
+    "startDateTime": "2020/05/6"
+  },
+  "relatedParty": {
+    "id": "97",
+    "href": "DID9658",
+    "role": "Regulator",
+    "name": "Malta Communications Authority (MCA)"
+  },
+  "price": "200 euros",
+  "resourceSpecification": {
+    "id": "573638df-3dea-4ebf-a55e-1bc42aa6e8f2",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "1225a090-f90a-4f26-83a7-d703c4293762",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2350
+        }
+      },
+      "bandwidth": {
+        "id": "df682a37-3dde-4546-b1a7-ed647b15b1ae",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced302193578"
+  },
+  "id": 510460,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-08-01/21:33:14",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2020/10/27",
+    "startDateTime": "2020/05/6"
+  },
+  "relatedParty": {
+    "id": "97",
+    "href": "DID9658",
+    "role": "Regulator",
+    "name": "Malta Communications Authority (MCA)"
+  },
+  "price": "30 euros",
+  "resourceSpecification": {
+    "id": "1cd1abbf-cf86-486a-b2b3-f4fb9aca1b29",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "ed230b96-19dd-46c3-811c-661c2fb645b7",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2350
+        }
+      },
+      "bandwidth": {
+        "id": "8b8302a1-9ebc-4af4-8fce-533dc4519598",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced302193579"
+  },
+  "id": 205355,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "id": "97",
+    "href": "DID9658",
+    "role": "Regulator",
+    "name": "Malta Communications Authority (MCA)"
+  },
+  "price": "50 euros",
+  "resourceSpecification": {
+    "id": "bef8f4d5-a65c-4168-a70e-a2b906b6b722",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "e184a3a1-9cc6-43a6-8fc1-745eda65abda",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 1340
+        }
+      },
+      "bandwidth": {
+        "id": "71e6399a-c3ce-4ef8-aef9-3ef63bd01db6",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced30219357a"
+  },
+  "id": 325188,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2020/10/27",
+    "startDateTime": "2020/05/6"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Regulator",
+      "name": "Spain Communications Authority (CNMC)"
+    },
+    "Operator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Operator",
+      "name": "ORANGE"
+    }
+  },
+  "price": "30 euros",
+  "resourceSpecification": {
+    "id": "a07dc90c-c92d-4e32-bd6b-40b3ab99110c",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "5cf3694e-ccfb-471d-977c-7574dbf238cb",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2340
+        }
+      },
+      "bandwidth": {
+        "id": "71e6399a-c3ce-4ef8-aef9-3ef63bd01db6",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced30219357b"
+  },
+  "id": 622277,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-08-01/21:33:14",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/07/12",
+    "startDateTime": "2021/04/23"
+  },
+  "relatedParty": {
+    "id": "79",
+    "href": "DID4662",
+    "role": "Regulator",
+    "name": "Spain Communications Authority (CNMC)"
+  },
+  "price": "50 euros",
+  "resourceSpecification": {
+    "id": "39863e71-f733-4215-bc8e-24863d1c5826",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "38713d8e-b425-4ed6-8494-ffa5cb17bceb",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2350
+        }
+      },
+      "bandwidth": {
+        "id": "5cc6604e-988a-4e1a-9a2f-51aad66ec954",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 10
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced30219357c"
+  },
+  "id": 605116,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "id": "95",
+    "href": "DID1728",
+    "role": "Regulator",
+    "name": "Spain Communications Authority (CNMC)"
+  },
+  "price": "200 euros",
+  "resourceSpecification": {
+    "id": "ca085610-5162-4710-b4fb-0accfdb8fff4",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "13f1b6de-3bb6-466a-9b2f-de0121b36ba8",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2400
+        }
+      },
+      "bandwidth": {
+        "id": "800245ed-91c4-448d-b4eb-31ebc81800c7",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 10
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced30219357d"
+  },
+  "id": 6671,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-01-21/4:45:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "id": "45",
+    "href": "DID6074",
+    "role": "Regulator",
+    "name": "Malta Communications Authority (MCA)"
+  },
+  "price": "100 euros",
+  "resourceSpecification": {
+    "id": "24fb9884-4cf1-4a41-8ed3-b24d4ac90ca2",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "85e1b248-97f7-4995-8432-6b78080c549e",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2340
+        }
+      },
+      "bandwidth": {
+        "id": "7cb3195f-840a-4e1d-b2a0-99ec1051a354",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 15
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced30219357e"
+  },
+  "id": 704834,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "id": "97",
+    "href": "DID9658",
+    "role": "Regulator",
+    "name": "Malta Communications Authority (MCA)"
+  },
+  "price": "100 euros",
+  "resourceSpecification": {
+    "id": "941c0d74-fe79-4087-9145-c0f0edc85cd5",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "1a5efe55-4d8b-4ec5-b38a-70249b88d573",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2400
+        }
+      },
+      "bandwidth": {
+        "id": "fa7bcb30-13fa-4162-85db-5d7ab8eef3a1",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 10
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced30219357f"
+  },
+  "id": 959037,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/07/12",
+    "startDateTime": "2021/04/23"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Regulator",
+      "name": "Spain Communications Authority (CNMC)"
+    },
+    "Operator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Operator",
+      "name": "ORANGE"
+    }
+  },
+  "price": "200 euros",
+  "resourceSpecification": {
+    "id": "f116acb0-5d49-4db3-9f12-60f533d072b2",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "743c6a66-3d66-4d1a-b13e-c2075d895cf5",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2400
+        }
+      },
+      "bandwidth": {
+        "id": "1aa2de8a-b4ad-4c69-ac89-c992a86e8290",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 15
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced302193580"
+  },
+  "id": 636821,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-08-01/21:33:14",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "id": "39",
+    "href": "DID4997",
+    "role": "Regulator",
+    "name": "Spain Communications Authority (CNMC)"
+  },
+  "price": "50 euros",
+  "resourceSpecification": {
+    "id": "a07dc90c-c92d-4e32-bd6b-40b3ab99110c",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "5cf3694e-ccfb-471d-977c-7574dbf238cb",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2340
+        }
+      },
+      "bandwidth": {
+        "id": "71e6399a-c3ce-4ef8-aef9-3ef63bd01db6",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced302193581"
+  },
+  "id": 697098,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/07/12",
+    "startDateTime": "2021/04/23"
+  },
+  "relatedParty": {
+    "id": "59",
+    "href": "DID2677",
+    "role": "Regulator",
+    "name": "Greece Communications Authority (EETT)"
+  },
+  "price": "50 euros",
+  "resourceSpecification": {
+    "id": "528c1f5f-2f0b-4d24-ab7e-84666bc5137a",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "1a5efe55-4d8b-4ec5-b38a-70249b88d573",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2400
+        }
+      },
+      "bandwidth": {
+        "id": "f53d826f-5cc7-46b7-87df-aa4070037a42",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 10
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced302193582"
+  },
+  "id": 985377,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "id": "39",
+    "href": "DID4997",
+    "role": "Regulator",
+    "name": "Spain Communications Authority (CNMC)"
+  },
+  "price": "100 euros",
+  "resourceSpecification": {
+    "id": "c6aa8985-e927-4cc9-bf9d-8ee85ed38bbf",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "fe9b7991-d465-4a79-83c0-1b2945d49b6c",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 1340
+        }
+      },
+      "bandwidth": {
+        "id": "d78a9ba0-4c4a-45bb-bfd8-e495809571bf",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 10
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced302193583"
+  },
+  "id": 3198,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-08-01/21:33:14",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/07/12",
+    "startDateTime": "2021/04/23"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Regulator",
+      "name": "Spain Communications Authority (CNMC)"
+    },
+    "Operator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Operator",
+      "name": "ORANGE"
+    }
+  },
+  "price": "30 euros",
+  "resourceSpecification": {
+    "id": "ad322d9e-85eb-4019-9aef-310a6205dcaf",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "5e694acc-9704-4fd3-aba2-43aaedf4d9bf",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2350
+        }
+      },
+      "bandwidth": {
+        "id": "fa7bcb30-13fa-4162-85db-5d7ab8eef3a1",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 10
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced302193584"
+  },
+  "id": 729285,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-01-21/4:45:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "id": "66",
+    "href": "DID386",
+    "role": "Regulator",
+    "name": "Greece Communications Authority (EETT)"
+  },
+  "price": "30 euros",
+  "resourceSpecification": {
+    "id": "a8042c42-1f86-44b4-8921-d33e91f308fe",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "e184a3a1-9cc6-43a6-8fc1-745eda65abda",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 1340
+        }
+      },
+      "bandwidth": {
+        "id": "1f73c183-f1b2-4ff4-b7f0-f677047070b2",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced302193585"
+  },
+  "id": 559600,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-01-21/4:45:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Regulator",
+      "name": "Spain Communications Authority (CNMC)"
+    },
+    "Operator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Operator",
+      "name": "ORANGE"
+    }
+  },
+  "price": "50 euros",
+  "resourceSpecification": {
+    "id": "7bdb6111-d2b9-418d-a875-7c6a08f52b42",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "73acd29f-ecc0-4d1b-ad75-f94ed0ea8f2b",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 1340
+        }
+      },
+      "bandwidth": {
+        "id": "f4f7e4a5-08d8-4c97-a42b-6374089ddab5",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 10
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced302193586"
+  },
+  "id": 914602,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-01-21/4:45:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "id": "39",
+    "href": "DID4997",
+    "role": "Regulator",
+    "name": "Spain Communications Authority (CNMC)"
+  },
+  "price": "30 euros",
+  "resourceSpecification": {
+    "id": "a00925f1-85e5-49d9-904e-8d1d6dd692e9",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "fe9b7991-d465-4a79-83c0-1b2945d49b6c",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 1340
+        }
+      },
+      "bandwidth": {
+        "id": "c0276d41-9d6c-4a3d-a007-0153fcc06569",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3da9dfd4ced302193587"
+  },
+  "id": 193068,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-01-21/4:45:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/07/12",
+    "startDateTime": "2021/04/23"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Regulator",
+      "name": "Spain Communications Authority (CNMC)"
+    },
+    "Operator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Operator",
+      "name": "ORANGE"
+    }
+  },
+  "price": "30 euros",
+  "resourceSpecification": {
+    "id": "a8042c42-1f86-44b4-8921-d33e91f308fe",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "e184a3a1-9cc6-43a6-8fc1-745eda65abda",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 1340
+        }
+      },
+      "bandwidth": {
+        "id": "1f73c183-f1b2-4ff4-b7f0-f677047070b2",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3daadfd4ced302193588"
+  },
+  "id": 390274,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-08-01/21:33:14",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "id": "97",
+    "href": "DID9658",
+    "role": "Regulator",
+    "name": "Malta Communications Authority (MCA)"
+  },
+  "price": "200 euros",
+  "resourceSpecification": {
+    "id": "573638df-3dea-4ebf-a55e-1bc42aa6e8f2",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "1225a090-f90a-4f26-83a7-d703c4293762",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2350
+        }
+      },
+      "bandwidth": {
+        "id": "df682a37-3dde-4546-b1a7-ed647b15b1ae",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3daadfd4ced302193589"
+  },
+  "id": 452306,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/07/12",
+    "startDateTime": "2021/04/23"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Regulator",
+      "name": "Spain Communications Authority (CNMC)"
+    },
+    "Operator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Operator",
+      "name": "ORANGE"
+    }
+  },
+  "price": "100 euros",
+  "resourceSpecification": {
+    "id": "25f38c8b-bd93-4099-a6df-e64851a05b98",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "a86640f3-74e5-46f1-8e67-cc9b5e0e31b5",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2350
+        }
+      },
+      "bandwidth": {
+        "id": "54e94592-dfc7-4702-bfac-b673257ceea7",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 15
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3daadfd4ced30219358a"
+  },
+  "id": 90103,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-01-21/4:45:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "id": "74",
+    "href": "DID9509",
+    "role": "Regulator",
+    "name": "Malta Communications Authority (MCA)"
+  },
+  "price": "30 euros",
+  "resourceSpecification": {
+    "id": "f3d9596f-0e63-45e2-8a3f-d988fc435622",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "e38972de-a35e-4812-99a4-12d7a5c9670e",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 1340
+        }
+      },
+      "bandwidth": {
+        "id": "14014863-9cad-4901-9d1e-54bfdc0a6368",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3daadfd4ced30219358b"
+  },
+  "id": 416672,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/07/12",
+    "startDateTime": "2021/04/23"
+  },
+  "relatedParty": {
+    "id": "79",
+    "href": "DID4662",
+    "role": "Regulator",
+    "name": "Spain Communications Authority (CNMC)"
+  },
+  "price": "100 euros",
+  "resourceSpecification": {
+    "id": "f2e87d8d-0984-4ffa-83e6-defc761f4a6c",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "13f1b6de-3bb6-466a-9b2f-de0121b36ba8",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2400
+        }
+      },
+      "bandwidth": {
+        "id": "bf810a42-59a6-495a-940f-8e6fca64b622",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3daadfd4ced30219358c"
+  },
+  "id": 388385,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-08-01/21:33:14",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2020/10/27",
+    "startDateTime": "2020/05/6"
+  },
+  "relatedParty": {
+    "id": "66",
+    "href": "DID386",
+    "role": "Regulator",
+    "name": "Greece Communications Authority (EETT)"
+  },
+  "price": "100 euros",
+  "resourceSpecification": {
+    "id": "f116acb0-5d49-4db3-9f12-60f533d072b2",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "743c6a66-3d66-4d1a-b13e-c2075d895cf5",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2400
+        }
+      },
+      "bandwidth": {
+        "id": "1aa2de8a-b4ad-4c69-ac89-c992a86e8290",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 15
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3daadfd4ced30219358d"
+  },
+  "id": 627600,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Regulator",
+      "name": "Spain Communications Authority (CNMC)"
+    },
+    "Operator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Operator",
+      "name": "ORANGE"
+    }
+  },
+  "price": "30 euros",
+  "resourceSpecification": {
+    "id": "a885a6df-d33d-4268-96b3-7b24cdc62bbb",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "1a5efe55-4d8b-4ec5-b38a-70249b88d573",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2400
+        }
+      },
+      "bandwidth": {
+        "id": "b294ce47-aaed-40fe-849a-2594fda3f1bb",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 15
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3daadfd4ced30219358e"
+  },
+  "id": 107021,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2020/10/27",
+    "startDateTime": "2020/05/6"
+  },
+  "relatedParty": {
+    "id": "87",
+    "href": "DID5601",
+    "role": "Regulator",
+    "name": "Greece Communications Authority (EETT)"
+  },
+  "price": "30 euros",
+  "resourceSpecification": {
+    "id": "7f4fb129-6f75-4605-8a1b-e2dd9de75b42",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "d0d46fd7-820d-4e90-a931-72b2196976cf",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 1340
+        }
+      },
+      "bandwidth": {
+        "id": "2a2c3c45-2f19-4f08-bd1a-6ec88dc17dbc",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 15
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3daadfd4ced30219358f"
+  },
+  "id": 89277,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/07/12",
+    "startDateTime": "2021/04/23"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Regulator",
+      "name": "Spain Communications Authority (CNMC)"
+    },
+    "Operator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Operator",
+      "name": "ORANGE"
+    }
+  },
+  "price": "30 euros",
+  "resourceSpecification": {
+    "id": "34a67bb1-1529-4d47-a3c2-d3d0c5ddb6df",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "34491a27-e09c-4aa2-b274-4d96fcf755c5",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2400
+        }
+      },
+      "bandwidth": {
+        "id": "52b1b386-95b4-42dd-9b95-d77af3030609",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3daadfd4ced302193590"
+  },
+  "id": 774802,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "id": "59",
+    "href": "DID2677",
+    "role": "Regulator",
+    "name": "Greece Communications Authority (EETT)"
+  },
+  "price": "200 euros",
+  "resourceSpecification": {
+    "id": "f0ee7b3e-587b-46dc-8bee-67e470825f14",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "fcc687bd-2741-4c40-a1a4-4d2921b163d4",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2350
+        }
+      },
+      "bandwidth": {
+        "id": "350058af-5cb2-4ec6-9815-57af41a8ef5f",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 15
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3daadfd4ced302193591"
+  },
+  "id": 50067,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-01-21/4:45:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2020/10/27",
+    "startDateTime": "2020/05/6"
+  },
+  "relatedParty": {
+    "id": "96",
+    "href": "DID9131",
+    "role": "Regulator",
+    "name": "Malta Communications Authority (MCA)"
+  },
+  "price": "200 euros",
+  "resourceSpecification": {
+    "id": "cc38161c-6d5b-48fb-af47-9624bb6b941c",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "6a86ce89-86b7-4cea-8acb-8b7f8f22c848",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2350
+        }
+      },
+      "bandwidth": {
+        "id": "eea38dba-10c6-4e83-a7de-4d18803f0b4e",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 10
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3daadfd4ced302193592"
+  },
+  "id": 682940,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "id": "79",
+    "href": "DID4662",
+    "role": "Regulator",
+    "name": "Spain Communications Authority (CNMC)"
+  },
+  "price": "50 euros",
+  "resourceSpecification": {
+    "id": "c8b39a40-f7a2-4230-9ecf-f0c1eb8ec820",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "d0d46fd7-820d-4e90-a931-72b2196976cf",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 1340
+        }
+      },
+      "bandwidth": {
+        "id": "6857a806-4500-4127-9d5a-0fdc8def6248",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 10
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3daadfd4ced302193593"
+  },
+  "id": 167950,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "90",
+      "href": "DID1597",
+      "role": "Regulator",
+      "name": "Greece Communications Authority (EETT)"
+    },
+    "Operator": {
+      "id": "90",
+      "href": "DID1597",
+      "role": "Operator",
+      "name": "WIND"
+    }
+  },
+  "price": "30 euros",
+  "resourceSpecification": {
+    "id": "cc38161c-6d5b-48fb-af47-9624bb6b941c",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "6a86ce89-86b7-4cea-8acb-8b7f8f22c848",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2350
+        }
+      },
+      "bandwidth": {
+        "id": "eea38dba-10c6-4e83-a7de-4d18803f0b4e",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 10
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3daadfd4ced302193594"
+  },
+  "id": 667333,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-01-21/4:45:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/07/12",
+    "startDateTime": "2021/04/23"
+  },
+  "relatedParty": {
+    "id": "39",
+    "href": "DID4997",
+    "role": "Regulator",
+    "name": "Spain Communications Authority (CNMC)"
+  },
+  "price": "200 euros",
+  "resourceSpecification": {
+    "id": "9642fb15-b0c7-4749-a078-51417f578e00",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "a7e44e0b-4640-43d8-a2b0-b42af82f2329",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 1340
+        }
+      },
+      "bandwidth": {
+        "id": "ed397f87-cc2f-44ef-aa3e-dbe6c9077e0c",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3daadfd4ced302193595"
+  },
+  "id": 956185,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/07/12",
+    "startDateTime": "2021/04/23"
+  },
+  "relatedParty": {
+    "id": "66",
+    "href": "DID386",
+    "role": "Regulator",
+    "name": "Greece Communications Authority (EETT)"
+  },
+  "price": "30 euros",
+  "resourceSpecification": {
+    "id": "0af0e1d4-2b2d-4f5e-9ffb-81337f5c62d8",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "341fcaa0-485b-464f-8d96-e16aecde8ce7",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "false",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2400
+        }
+      },
+      "bandwidth": {
+        "id": "ed397f87-cc2f-44ef-aa3e-dbe6c9077e0c",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3daadfd4ced302193596"
+  },
+  "id": 857011,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2019-03-11/14:55:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/10/19",
+    "startDateTime": "2021/05/3"
+  },
+  "relatedParty": {
+    "Regulator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Regulator",
+      "name": "Spain Communications Authority (CNMC)"
+    },
+    "Operator": {
+      "id": "51",
+      "href": "DID6604",
+      "role": "Operator",
+      "name": "ORANGE"
+    }
+  },
+  "price": "200 euros",
+  "resourceSpecification": {
+    "id": "15ec358e-73f4-4d9c-9bd1-57b991672ef0",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "3b96caee-6a6a-43fd-bf02-adefce254da1",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "false",
+        "isUnique": "false",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2350
+        }
+      },
+      "bandwidth": {
+        "id": "6857a806-4500-4127-9d5a-0fdc8def6248",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 10
+        }
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "603f3daadfd4ced302193597"
+  },
+  "id": 353497,
+  "href": "SpectokenDID",
+  "name": "spectrumResource",
+  "description": "spectrumResource",
+  "lifecycleStatus": "Active",
+  "lastUpdate": "2020-01-21/4:45:34",
+  "version": "v2",
+  "category": "Spectrum",
+  "validFor": {
+    "endDateTime": "2021/07/12",
+    "startDateTime": "2021/04/23"
+  },
+  "relatedParty": {
+    "id": "24",
+    "href": "DID6566",
+    "role": "Regulator",
+    "name": "Malta Communications Authority (MCA)"
+  },
+  "price": "30 euros",
+  "resourceSpecification": {
+    "id": "ccf83ee9-1d07-4e46-bb4f-f9bde52715b7",
+    "href": "string",
+    "category": "Spectrum",
+    "name": "spectrumResourceSpec",
+    "description": "spectrumResourceSpec.",
+    "version": "v1",
+    "resourceSpecCharacteristic": {
+      "centralFrequency": {
+        "id": "e29ed9f5-80b9-44f6-8c0d-efa34605e6af",
+        "name": "centralFrequency",
+        "description": "The central frequency (MHz) of the spectrum resource.",
+        "congigurable": "true",
+        "extensible": "true",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "false",
+          "unitOfMeasure": "MHz",
+          "value": 2400
+        }
+      },
+      "bandwidth": {
+        "id": "52b1b386-95b4-42dd-9b95-d77af3030609",
+        "name": "bandwidth",
+        "description": "The size of the spectrum resource expressed in MHz.",
+        "congigurable": "false",
+        "extensible": "false",
+        "isUnique": "true",
+        "valueType": "numeric",
+        "resourceSpecCharacteristicValue": {
+          "isDefault": "true",
+          "unitOfMeasure": "MHz",
+          "value": 20
+        }
+      }
+    }
+  }
+}]

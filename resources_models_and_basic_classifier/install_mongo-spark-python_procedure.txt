@@ -1,0 +1,100 @@
+mongodb and Spark installation procedure in Python enviroment
+
+########################################################################
+presequites from:
+https://docs.mongodb.com/spark-connector/current/python-api/
+*it's important to install the correct version of each component!
+Running MongoDB instance (version 2.6 or later).
+Spark 2.4.x.
+Scala 2.11.x or 2.12.x
+
+########################################################################
+install mongodb community edition version 3.6.22 from
+https://www.mongodb.com/try/download/community
+
+########################################################################
+install java 8 
+https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+VARIABLE NAME:JAVA_HOME
+VARIABLE VALUE:C:\Program Files\Java\jdk1.8.0_281
+AND ADD TO PATH: %JAVA_HOME%\bin
+
+########################################################################
+install SPARK 2.4
+https://phoenixnap.com/kb/install-spark-on-windows-10 (step 3- step 8)
+https://spark.apache.org/downloads.html
+download: spark 2.4.7
+package type(probably): Pre-built for Apache Hadoop 2.7
+VARIABLE NAME:SPARK_HOME
+VARIABLE VALUE:C:\Spark\spark-2.4.7-bin-hadoop2.7
+AND ADD TO PATH: %SPARK_HOME%\bin
+
+########################################################################
+install scala 2.11
+https://subscription.packtpub.com/book/application_development/9781786461483/1/ch01lvl1sec9/installing-java-8-and-scala-2-11
+first install wget
+https://phoenixnap.com/kb/wget-command-with-examples
+set path
+Download scala
+wget http://downloads.lightbend.com/scala/2.11.8/scala-2.11.8.tgz
+extract to folder : C:\Scala
+set enviroment variables
+VARIABLE NAME:SCALA_HOME
+VARIABLE VALUE:C:\Scala\scala-2.11.8
+AND ADD TO PATH: %SCALA_HOME%\bin
+
+########################################################################
+install python (python 3.7.5-spyders is 3.7.6)
+https://phoenixnap.com/kb/install-spark-on-windows-10 (step 2)
+
+https://www.python.org/downloads/release/python-375/
+Windows x86-64 executable installer
+Anaconda3-2020.02-Windows-x86_64.exe
+from:
+https://repo.anaconda.com/archive/
+(uses python 3.7.6)
+########################################################################
+check pyspark works:
+cd C:\Spark\spark-2.4.7-bin-hadoop2.7\bin
+pyspark (for checking)
+quit()
+
+to connect pyspark with spyder set enviroment variables:
+VARIABLE NAME:PYTHONPATH
+VARIABLE VALUE:$SPARK_HOME\python;$SPARK_HOME\python\lib\py4j-0.10.7-src.zip
+
+########################################################################
+INSTALL PYMONGO and MONGODB
+
+analytical STEPS (this is after installation of mongo DB):
+create directory: C:\data\db
+run cd C:\Program Files\MongoDB\Server\3.6\bin
+run mongod.exe
+set enviroment variables
+VARIABLE NAME:MONGO_HOME
+VARIABLE VALUE:C:\Program Files\MongoDB\Server\3.6
+AND ADD TO PATH: %MONGO_HOME%\bin
+Open other command prompt
+run cd C:\Program Files\MongoDB\Server\3.6\bin
+run mongod
+
+finally open anaconda cmd and run pip install pymongo
+########################################################################
+create database
+run in anaconda prompt: conda install -c anaconda pymongo :
+and run: mongo_database - resource_model_4.py
+to create the database
+
+########################################################################
+!!!!!!!!!!!!!!!!!!!! before opening SPYDER run:
+Open anaconda command prompt and run
+cd C:\Program Files\MongoDB\Server\3.6\bin
+mongod 
+
+IF YOU WANT TO RUN OUTSIDE SPYDER (IN CMD) RUN:
+Open command prompt and run
+(https://docs.mongodb.com/spark-connector/current/python-api/:)
+cd C:\Spark\spark-2.4.7-bin-hadoop2.7\bin
+pyspark --conf "spark.mongodb.input.uri=mongodb://127.0.0.1/pymongo_test4?readPreference=primaryPreferred" --conf "spark.mongodb.output.uri=mongodb://127.0.0.1/pymongo_test4" --packages org.mongodb.spark:mongo-spark-connector_2.11:2.4.2
+(2.11:3.0.0 doesn't work)
+
