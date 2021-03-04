@@ -240,7 +240,7 @@ temp0=re.findall("\d+\.\d+", cluster_prediction_in_Row_format)
 temp=[float(i) for i in temp0]
 cluster_num=int(temp[0])
 print(" ") 
-print("The querry that fits better to querry requirements is:") 
+print("The cluster that fits better to querry requirements is:") 
 print(cluster_num)  
 print(" ")  
 print(" ") 
