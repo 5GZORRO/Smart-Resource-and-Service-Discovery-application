@@ -116,7 +116,7 @@ print("Silhouette with squared euclidean distance = " + str(silhouette))
 
 
 #################################################################################################
-##################################### Write class labels to database fille (this is useful for future querries)
+##################################### Write class labels to database file (this is useful for future queries)
 import sqlite3
 from sqlite3 import Error
 ###################################################################################
