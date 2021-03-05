@@ -8,8 +8,7 @@
 
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 #First start Mongodb
-#Open anaconda command prompt and run
-#cd C:\Program Files\MongoDB\Server\3.6\bin
+#cd \..\MongoDB\Server\3.6\bin
 #mongod 
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
