@@ -1,4 +1,4 @@
-All datasets build with offers are placed in following order:
+Offers are placed in following order:
 EDGE
 CLOUD
 RAN
