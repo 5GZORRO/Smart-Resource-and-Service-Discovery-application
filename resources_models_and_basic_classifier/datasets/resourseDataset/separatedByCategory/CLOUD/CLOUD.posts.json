@@ -1,0 +1,4573 @@
+[{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4aa8"
+  },
+  "id": 388247,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "55319c4d-dd32-4451-a634-b143e5ebf439",
+      "nodeId": "19d614e1-05fe-4653-a391-257c590b3d53",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "NoOfCPUcores": {
+          "hardwareCapKey": "no.CPUs",
+          "hardwareCapValue": 16,
+          "hardwareCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4aa9"
+  },
+  "id": 747335,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "d1ef5c12-a28d-43d4-8b00-b8a2be21fcb1",
+      "nodeId": "81b88c66-d4f1-4d9a-a466-b12a9ab3a772",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 16,
+          "virtualCapUnit": "cores"
+        },
+        "CPUcoreSpeed": {
+          "virtualCapKey": "speedCPU",
+          "virtualCapValue": 2,
+          "virtualCapUnit": "GHz"
+        },
+        "RAMamount": {
+          "virtualCapKey": "RAM",
+          "virtualCapValue": 64,
+          "virtualCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4aaa"
+  },
+  "id": 963007,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "a793f415-2b1f-413e-a667-7c24cea870b8",
+      "nodeId": "c1acd1e9-250a-4135-87c9-9f93ffcb37a0",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "RAMamount": {
+          "hardwareCapKey": "RAM",
+          "hardwareCapValue": 128,
+          "hardwareCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4aab"
+  },
+  "id": 346822,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "07062700-baba-48f8-8d98-08bccc8b0011",
+      "nodeId": "89b635bb-94a3-4dea-902c-3eb357786c60",
+      "isMaster": 0,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 1000,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4aac"
+  },
+  "id": 801623,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "d2703372-b6d0-4646-bd75-9394957fab64",
+      "nodeId": "899b35e8-5925-42ac-85c5-dc0fe0eb4be3",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 1000,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4aad"
+  },
+  "id": 204017,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "c9303af0-0483-4a7a-a476-9842dc2f317f",
+      "nodeId": "f934f6cc-c769-4bab-8304-1017cd5e71c8",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "virtualCapKey": "HDD",
+        "virtualCapValue": 200,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4aae"
+  },
+  "id": 809048,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "2afc0027-56c9-4117-ae2e-7cd45456660f",
+      "nodeId": "9cbdbea5-2cf0-4369-aab8-04cf464f0aae",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 100,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4aaf"
+  },
+  "id": 405717,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "8e0891d5-97c4-4f4d-bbbd-6b6a6a3eb53b",
+      "nodeId": "274ddac6-9542-4018-8989-7aa1e5fc2d4c",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4ab0"
+  },
+  "id": 112085,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "spain",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "4e66dd52-3da7-4945-b270-fcea8b0caf32",
+      "nodeId": "976fce53-23b9-4bdd-b432-b23e088ff7d3",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "NoOfCPUcores": {
+          "hardwareCapKey": "no.CPUs",
+          "hardwareCapValue": 16,
+          "hardwareCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4ab1"
+  },
+  "id": 225338,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "d1ef5c12-a28d-43d4-8b00-b8a2be21fcb1",
+      "nodeId": "81b88c66-d4f1-4d9a-a466-b12a9ab3a772",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 16,
+          "virtualCapUnit": "cores"
+        },
+        "CPUcoreSpeed": {
+          "virtualCapKey": "speedCPU",
+          "virtualCapValue": 2,
+          "virtualCapUnit": "GHz"
+        },
+        "RAMamount": {
+          "virtualCapKey": "RAM",
+          "virtualCapValue": 64,
+          "virtualCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4ab2"
+  },
+  "id": 380707,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "938608ae-48b9-4e2d-a7c6-ab6a777d5096",
+      "nodeId": "0f00aabc-cefb-46b0-967f-2d7fe8152ee6",
+      "isMaster": 0,
+      "type": "openshift",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 100,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4ab3"
+  },
+  "id": 862159,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "c9303af0-0483-4a7a-a476-9842dc2f317f",
+      "nodeId": "f934f6cc-c769-4bab-8304-1017cd5e71c8",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "virtualCapKey": "HDD",
+        "virtualCapValue": 200,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4ab4"
+  },
+  "id": 819574,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "e5c7e200-7494-43cf-aaa3-ab289a2360a3",
+      "nodeId": "2f7c1715-46da-4fc9-90ab-d3843985505d",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "storage",
+        "hardwareCapValue": 200,
+        "hardwareCapUnit": "GB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4ab5"
+  },
+  "id": 740542,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "3d50ce41-411d-46db-a3b0-bfb41e6a81d0",
+      "nodeId": "b8c9b269-ad10-4e3f-b506-5b5c5d5b9cf1",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4ab6"
+  },
+  "id": 208185,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "spain",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "1e134d66-0f60-4c9a-97b1-a3f6dc75384c",
+      "nodeId": "3d183f1b-6c62-4191-b685-39dda2ecad9f",
+      "isMaster": 1,
+      "type": "openshift",
+      "hardwareCapabilities": {
+        "NoOfCPUcores": {
+          "hardwareCapKey": "no.CPUs",
+          "hardwareCapValue": 16,
+          "hardwareCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4ab7"
+  },
+  "id": 106048,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "b933223a-6cdd-4aeb-8cbe-cb1b0c62627f",
+      "nodeId": "ade97bad-6c95-4d17-ab6d-a166d5083bfa",
+      "isMaster": 1,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "virtualCapKey": "SSD",
+        "virtualCapValue": 500,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4ab8"
+  },
+  "id": 930682,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "e5412459-1a4f-438a-8600-df3ddf61c1dc",
+      "nodeId": "ad607b82-781a-4f47-a57b-fcf9b6b9de85",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "SSD",
+        "hardwareCapValue": 800,
+        "hardwareCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4ab9"
+  },
+  "id": 497900,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "8e0891d5-97c4-4f4d-bbbd-6b6a6a3eb53b",
+      "nodeId": "274ddac6-9542-4018-8989-7aa1e5fc2d4c",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4aba"
+  },
+  "id": 844423,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "4e66dd52-3da7-4945-b270-fcea8b0caf32",
+      "nodeId": "976fce53-23b9-4bdd-b432-b23e088ff7d3",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "NoOfCPUcores": {
+          "hardwareCapKey": "no.CPUs",
+          "hardwareCapValue": 16,
+          "hardwareCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4abb"
+  },
+  "id": 688883,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "d2a731d2-c36e-4cd3-a0c4-e77969e71129",
+      "nodeId": "4dc7467a-c8e7-4ac8-8515-65f6facd1d82",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "virtualCapKey": "HDD",
+        "virtualCapValue": 800,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4abc"
+  },
+  "id": 212294,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "222de76f-b334-4beb-8f10-6c9a71d4ceaa",
+      "nodeId": "4374735e-93be-4462-9c02-2c571952c0e7",
+      "isMaster": 0,
+      "type": "openstack",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 1000,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4abd"
+  },
+  "id": 421462,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "5cd92859-b431-458e-9b00-25523350a95f",
+      "nodeId": "dccdca73-f0cb-45a9-856e-f3d350354262",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 8,
+          "virtualCapUnit": "cores"
+        },
+        "CPUcoreSpeed": {
+          "virtualCapKey": "speedCPU",
+          "virtualCapValue": 1,
+          "virtualCapUnit": "GHz"
+        },
+        "RAMamount": {
+          "virtualCapKey": "RAM",
+          "virtualCapValue": 128,
+          "virtualCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4abe"
+  },
+  "id": 732568,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "9db4710a-7a7c-4a4e-8947-52be7d99f75f",
+      "nodeId": "e8f864b7-5e39-4218-aae2-48a5598f344b",
+      "isMaster": 1,
+      "type": "openstack",
+      "hardwareCapabilities": {
+        "NoOfCPUcores": {
+          "hardwareCapKey": "no.CPUs",
+          "hardwareCapValue": 8,
+          "hardwareCapUnit": "cores"
+        },
+        "RAMamount": {
+          "hardwareCapKey": "RAM",
+          "hardwareCapValue": 128,
+          "hardwareCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4abf"
+  },
+  "id": 933139,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "ea04c8c8-89b8-48a6-8c3a-cad280540a0c",
+      "nodeId": "72150a77-b3d1-4caf-9213-ed55238e6f8e",
+      "isMaster": 1,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 8,
+          "virtualCapUnit": "cores"
+        },
+        "CPUcoreSpeed": {
+          "virtualCapKey": "speedCPU",
+          "virtualCapValue": 2,
+          "virtualCapUnit": "GHz"
+        },
+        "RAMamount": {
+          "virtualCapKey": "RAM",
+          "virtualCapValue": 64,
+          "virtualCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4ac0"
+  },
+  "id": 432379,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "3a0203bf-8312-49a6-b0e7-5d93f96f5d23",
+      "nodeId": "a9e18b7e-aae3-4f29-a9e7-890b0709a5fd",
+      "isMaster": 0,
+      "type": "openstack",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "storage",
+        "hardwareCapValue": 500,
+        "hardwareCapUnit": "GB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4ac1"
+  },
+  "id": 256655,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "244968de-7492-47b4-8910-6203bf7e3ccb",
+      "nodeId": "b96ae853-779a-47b1-be80-e669aaf4384f",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a092fe1174fd77b0e4ac2"
+  },
+  "id": 962904,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "spain",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "4e66dd52-3da7-4945-b270-fcea8b0caf32",
+      "nodeId": "976fce53-23b9-4bdd-b432-b23e088ff7d3",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "NoOfCPUcores": {
+          "hardwareCapKey": "no.CPUs",
+          "hardwareCapValue": 16,
+          "hardwareCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4ac3"
+  },
+  "id": 761013,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "c9303af0-0483-4a7a-a476-9842dc2f317f",
+      "nodeId": "f934f6cc-c769-4bab-8304-1017cd5e71c8",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "virtualCapKey": "HDD",
+        "virtualCapValue": 200,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4ac4"
+  },
+  "id": 592999,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "spain",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "55319c4d-dd32-4451-a634-b143e5ebf439",
+      "nodeId": "19d614e1-05fe-4653-a391-257c590b3d53",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "NoOfCPUcores": {
+          "hardwareCapKey": "no.CPUs",
+          "hardwareCapValue": 16,
+          "hardwareCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4ac5"
+  },
+  "id": 242556,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "728a38b9-42ba-4348-8491-8ab57cba63cf",
+      "nodeId": "45afd10c-844f-4cac-a382-68eb784d28ff",
+      "isMaster": 0,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 1000,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4ac6"
+  },
+  "id": 127709,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "5c3bc8ef-bfc0-4798-9017-ea851312ccf7",
+      "nodeId": "ec71a713-4f65-4648-9b8f-6e74ccac5d5d",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 10,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4ac7"
+  },
+  "id": 767420,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "a62d9759-e1d0-4b39-9f15-fdbd76ef9f64",
+      "nodeId": "e5e4018e-3103-422c-98f2-ddcd4325f94b",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "virtualCapKey": "storage",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4ac8"
+  },
+  "id": 642913,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "27d1ca2b-dfdd-4c43-baff-49872edf4b33",
+      "nodeId": "9be50038-c2fd-435d-948a-795a75f6c1e8",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "SSD",
+        "hardwareCapValue": 100,
+        "hardwareCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4ac9"
+  },
+  "id": 27481,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "8e0891d5-97c4-4f4d-bbbd-6b6a6a3eb53b",
+      "nodeId": "274ddac6-9542-4018-8989-7aa1e5fc2d4c",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4aca"
+  },
+  "id": 633782,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "2b041f17-47d4-473b-9874-a369dd4ec1ed",
+      "nodeId": "f934dda2-22d2-4b4a-9857-3e5dafc2063d",
+      "isMaster": 1,
+      "type": "openstack",
+      "hardwareCapabilities": {
+        "RAMamount": {
+          "hardwareCapKey": "RAM",
+          "hardwareCapValue": 128,
+          "hardwareCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4acb"
+  },
+  "id": 388168,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "a761fa82-dfd6-42da-b037-e7b71c27e8fb",
+      "nodeId": "ca45de14-a237-4130-b412-ad2cf38a3448",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "virtualCapKey": "storage",
+        "virtualCapValue": 500,
+        "virtualCapUnit": "GB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4acc"
+  },
+  "id": 941086,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "19f5d789-a4ba-42ca-993a-6436373c312b",
+      "nodeId": "7804b27c-00db-4827-95af-0038dbcd0a10",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "RAMamount": {
+          "hardwareCapKey": "RAM",
+          "hardwareCapValue": 32,
+          "hardwareCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4acd"
+  },
+  "id": 117166,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "3a0c0a29-ae31-4560-92c8-e3c5d5882e3a",
+      "nodeId": "4ac45189-b9ba-4278-abe3-1f4e2c5f5524",
+      "isMaster": 1,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 8,
+          "virtualCapUnit": "cores"
+        },
+        "RAMamount": {
+          "virtualCapKey": "RAM",
+          "virtualCapValue": 256,
+          "virtualCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4ace"
+  },
+  "id": 45174,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "135148e5-0086-4836-af3c-70fd85e7be6f",
+      "nodeId": "fe6f9696-7c0d-4326-a80c-dd50a1068601",
+      "isMaster": 1,
+      "type": "openshift",
+      "hardwareCapabilities": {
+        "NoOfCPUcores": {
+          "hardwareCapKey": "no.CPUs",
+          "hardwareCapValue": 16,
+          "hardwareCapUnit": "cores"
+        },
+        "CPUcoreSpeed": {
+          "hardwareCapKey": "speedCPU",
+          "hardwareCapValue": 4,
+          "hardwareCapUnit": "GHz"
+        },
+        "RAMamount": {
+          "hardwareCapKey": "RAM",
+          "hardwareCapValue": 128,
+          "hardwareCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4acf"
+  },
+  "id": 312247,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "eb5bd7c2-1411-45c2-b748-4e50eee2ccc4",
+      "nodeId": "fccbf5a6-aa8b-4ddf-9a02-b01c2e772552",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "virtualCapKey": "HDD",
+        "virtualCapValue": 800,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4ad0"
+  },
+  "id": 414422,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "135148e5-0086-4836-af3c-70fd85e7be6f",
+      "nodeId": "fe6f9696-7c0d-4326-a80c-dd50a1068601",
+      "isMaster": 1,
+      "type": "openshift",
+      "hardwareCapabilities": {
+        "NoOfCPUcores": {
+          "hardwareCapKey": "no.CPUs",
+          "hardwareCapValue": 16,
+          "hardwareCapUnit": "cores"
+        },
+        "CPUcoreSpeed": {
+          "hardwareCapKey": "speedCPU",
+          "hardwareCapValue": 4,
+          "hardwareCapUnit": "GHz"
+        },
+        "RAMamount": {
+          "hardwareCapKey": "RAM",
+          "hardwareCapValue": 128,
+          "hardwareCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4ad1"
+  },
+  "id": 765468,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "dec0cfce-ec67-4d90-ae1b-39c9871cca74",
+      "nodeId": "af07fcec-342d-4e82-8993-4cd7cad9e480",
+      "isMaster": 1,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4ad2"
+  },
+  "id": 159193,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "5c3bc8ef-bfc0-4798-9017-ea851312ccf7",
+      "nodeId": "ec71a713-4f65-4648-9b8f-6e74ccac5d5d",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 10,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4ad3"
+  },
+  "id": 62093,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "c24602ed-c43f-4cc1-8203-167a80d3d210",
+      "nodeId": "ab17393f-e9d0-4c74-b586-6fc99a012b02",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 32,
+          "virtualCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4ad4"
+  },
+  "id": 517981,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "1a821f8c-b833-43e0-bdf8-a08496ac4665",
+      "nodeId": "bcac2057-67a2-4b8b-bcc9-6a2be30eefe7",
+      "isMaster": 0,
+      "type": "openstack",
+      "hardwareCapabilities": {
+        "NoOfCPUcores": {
+          "hardwareCapKey": "no.CPUs",
+          "hardwareCapValue": 16,
+          "hardwareCapUnit": "cores"
+        },
+        "RAMamount": {
+          "hardwareCapKey": "RAM",
+          "hardwareCapValue": 128,
+          "hardwareCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4ad5"
+  },
+  "id": 847439,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "4e79b665-dd31-4d2d-bdac-d33407cb6248",
+      "nodeId": "e449d1e0-83ac-4b38-9116-d23d485b4495",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 32,
+          "virtualCapUnit": "cores"
+        },
+        "CPUcoreSpeed": {
+          "virtualCapKey": "speedCPU",
+          "virtualCapValue": 3,
+          "virtualCapUnit": "GHz"
+        },
+        "RAMamount": {
+          "virtualCapKey": "RAM",
+          "virtualCapValue": 64,
+          "virtualCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4ad6"
+  },
+  "id": 8293,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "938608ae-48b9-4e2d-a7c6-ab6a777d5096",
+      "nodeId": "0f00aabc-cefb-46b0-967f-2d7fe8152ee6",
+      "isMaster": 0,
+      "type": "openshift",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 100,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4ad7"
+  },
+  "id": 128536,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "dc917999-cd87-49ba-be7f-d0cc0ac15ac7",
+      "nodeId": "26b352a0-63c7-4559-aafd-50139c3a6c80",
+      "isMaster": 1,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 32,
+          "virtualCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4ad8"
+  },
+  "id": 367165,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "dba36bde-8944-4663-a4c0-97b52d8e66d8",
+      "nodeId": "7426d656-542d-4454-87f7-2a0bad12f005",
+      "isMaster": 0,
+      "type": "openshift",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 1000,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4ad9"
+  },
+  "id": 388555,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "087becf8-f634-4ce7-9178-c27a47f352d2",
+      "nodeId": "6474f350-e32f-4cb6-97c2-cecaf360a9f6",
+      "isMaster": 0,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "virtualCapKey": "HDD",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "GB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4ada"
+  },
+  "id": 956628,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "5c3bc8ef-bfc0-4798-9017-ea851312ccf7",
+      "nodeId": "ec71a713-4f65-4648-9b8f-6e74ccac5d5d",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 10,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4adb"
+  },
+  "id": 484796,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "c7052eee-1ecf-4b00-a45f-71abfccebd55",
+      "nodeId": "e1821cc8-0a30-45c9-bc74-fc6f6d60e6d2",
+      "isMaster": 0,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 64,
+          "virtualCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4adc"
+  },
+  "id": 614677,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "9db4710a-7a7c-4a4e-8947-52be7d99f75f",
+      "nodeId": "e8f864b7-5e39-4218-aae2-48a5598f344b",
+      "isMaster": 1,
+      "type": "openstack",
+      "hardwareCapabilities": {
+        "NoOfCPUcores": {
+          "hardwareCapKey": "no.CPUs",
+          "hardwareCapValue": 8,
+          "hardwareCapUnit": "cores"
+        },
+        "RAMamount": {
+          "hardwareCapKey": "RAM",
+          "hardwareCapValue": 128,
+          "hardwareCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4add"
+  },
+  "id": 456173,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "150023f7-18a2-4bc0-9716-fed0cbfad3cd",
+      "nodeId": "4cb89441-d06a-41be-9228-35fee2b64b33",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "virtualCapKey": "storage",
+        "virtualCapValue": 800,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4ade"
+  },
+  "id": 670107,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "spain",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "f026ac20-4699-4a08-8a68-e9516352f188",
+      "nodeId": "0bcc01e1-42b6-41db-84c7-5c6552252a5a",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "SSD",
+        "hardwareCapValue": 800,
+        "hardwareCapUnit": "GB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0930e1174fd77b0e4adf"
+  },
+  "id": 66052,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "244968de-7492-47b4-8910-6203bf7e3ccb",
+      "nodeId": "b96ae853-779a-47b1-be80-e669aaf4384f",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4ae0"
+  },
+  "id": 463110,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "7408f6e2-1e0c-46fe-bbea-df9f8aeb9e55",
+      "nodeId": "c9998a78-d6c7-43df-9b5a-64bbec573e1b",
+      "isMaster": 1,
+      "type": "openshift",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "storage",
+        "hardwareCapValue": 500,
+        "hardwareCapUnit": "GB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4ae1"
+  },
+  "id": 278330,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "5cd92859-b431-458e-9b00-25523350a95f",
+      "nodeId": "dccdca73-f0cb-45a9-856e-f3d350354262",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 8,
+          "virtualCapUnit": "cores"
+        },
+        "CPUcoreSpeed": {
+          "virtualCapKey": "speedCPU",
+          "virtualCapValue": 1,
+          "virtualCapUnit": "GHz"
+        },
+        "RAMamount": {
+          "virtualCapKey": "RAM",
+          "virtualCapValue": 128,
+          "virtualCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4ae2"
+  },
+  "id": 770670,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "spain",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "40bb1fa8-fdf4-4597-8bf6-27079e334963",
+      "nodeId": "0740a94d-2675-478a-8a99-915243c0b591",
+      "isMaster": 1,
+      "type": "openshift",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 100,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4ae3"
+  },
+  "id": 644190,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "c24602ed-c43f-4cc1-8203-167a80d3d210",
+      "nodeId": "ab17393f-e9d0-4c74-b586-6fc99a012b02",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 32,
+          "virtualCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4ae4"
+  },
+  "id": 268731,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "d85896d7-2f4f-48d3-973c-698c2d42bd72",
+      "nodeId": "9f8554f4-568b-45e1-9c9a-80ef6ae61a04",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 1000,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4ae5"
+  },
+  "id": 16422,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "4e79b665-dd31-4d2d-bdac-d33407cb6248",
+      "nodeId": "e449d1e0-83ac-4b38-9116-d23d485b4495",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 32,
+          "virtualCapUnit": "cores"
+        },
+        "CPUcoreSpeed": {
+          "virtualCapKey": "speedCPU",
+          "virtualCapValue": 3,
+          "virtualCapUnit": "GHz"
+        },
+        "RAMamount": {
+          "virtualCapKey": "RAM",
+          "virtualCapValue": 64,
+          "virtualCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4ae6"
+  },
+  "id": 169041,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "a793f415-2b1f-413e-a667-7c24cea870b8",
+      "nodeId": "c1acd1e9-250a-4135-87c9-9f93ffcb37a0",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "RAMamount": {
+          "hardwareCapKey": "RAM",
+          "hardwareCapValue": 128,
+          "hardwareCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4ae7"
+  },
+  "id": 948963,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "57d3fcfe-79ca-458e-a762-d4bc18fea1f3",
+      "nodeId": "91fbeb4e-0745-47dd-b05d-282d6f6f5dea",
+      "isMaster": 0,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4ae8"
+  },
+  "id": 354010,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "515809cd-8b37-4408-b212-4cf4cbe67e00",
+      "nodeId": "1d2cf43e-aa49-4f92-91d1-c888cdce096c",
+      "isMaster": 1,
+      "type": "openstack",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "HDD",
+        "hardwareCapValue": 200,
+        "hardwareCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4ae9"
+  },
+  "id": 780872,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "808082cd-3462-41c6-9c03-5bcac24511b0",
+      "nodeId": "24d3a191-2ff1-45fd-9642-b19b198a9541",
+      "isMaster": 0,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "virtualCapKey": "storage",
+        "virtualCapValue": 800,
+        "virtualCapUnit": "GB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4aea"
+  },
+  "id": 135284,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "1e134d66-0f60-4c9a-97b1-a3f6dc75384c",
+      "nodeId": "3d183f1b-6c62-4191-b685-39dda2ecad9f",
+      "isMaster": 1,
+      "type": "openshift",
+      "hardwareCapabilities": {
+        "NoOfCPUcores": {
+          "hardwareCapKey": "no.CPUs",
+          "hardwareCapValue": 16,
+          "hardwareCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4aeb"
+  },
+  "id": 813327,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "c83767db-445b-4955-bc4f-e08350e563ab",
+      "nodeId": "23cd5735-e214-4cde-bf96-545dac570c64",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "virtualCapKey": "SSD",
+        "virtualCapValue": 200,
+        "virtualCapUnit": "GB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4aec"
+  },
+  "id": 936791,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "d85896d7-2f4f-48d3-973c-698c2d42bd72",
+      "nodeId": "9f8554f4-568b-45e1-9c9a-80ef6ae61a04",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 1000,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4aed"
+  },
+  "id": 983040,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "d1ef5c12-a28d-43d4-8b00-b8a2be21fcb1",
+      "nodeId": "81b88c66-d4f1-4d9a-a466-b12a9ab3a772",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 16,
+          "virtualCapUnit": "cores"
+        },
+        "CPUcoreSpeed": {
+          "virtualCapKey": "speedCPU",
+          "virtualCapValue": 2,
+          "virtualCapUnit": "GHz"
+        },
+        "RAMamount": {
+          "virtualCapKey": "RAM",
+          "virtualCapValue": 64,
+          "virtualCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4aee"
+  },
+  "id": 746127,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "dba36bde-8944-4663-a4c0-97b52d8e66d8",
+      "nodeId": "7426d656-542d-4454-87f7-2a0bad12f005",
+      "isMaster": 0,
+      "type": "openshift",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 1000,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4aef"
+  },
+  "id": 389300,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "333c8323-d39b-41b0-a4d7-0f18e7a3c25b",
+      "nodeId": "81193473-e872-40e6-9a25-23b38c4f8af0",
+      "isMaster": 0,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "virtualCapKey": "storage",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4af0"
+  },
+  "id": 225398,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "4e66dd52-3da7-4945-b270-fcea8b0caf32",
+      "nodeId": "976fce53-23b9-4bdd-b432-b23e088ff7d3",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "NoOfCPUcores": {
+          "hardwareCapKey": "no.CPUs",
+          "hardwareCapValue": 16,
+          "hardwareCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4af1"
+  },
+  "id": 992565,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "f50ca271-3263-498b-80b8-547cd70301fe",
+      "nodeId": "e3c2e91a-0035-4037-82e4-f2d1909f15e9",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "virtualCapKey": "HDD",
+        "virtualCapValue": 200,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4af2"
+  },
+  "id": 872540,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "a6826fb6-0b10-4d1a-994b-3f0344ac0043",
+      "nodeId": "daa37f1a-3e59-4776-b60e-0ac8253fe110",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "HDD",
+        "hardwareCapValue": 800,
+        "hardwareCapUnit": "GB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4af3"
+  },
+  "id": 474465,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "f939cc04-9542-4a08-b267-06e1e6e39749",
+      "nodeId": "a8ff3f8c-d150-4f79-9d60-b667b84c68f3",
+      "isMaster": 0,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "virtualCapKey": "HDD",
+        "virtualCapValue": 200,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4af4"
+  },
+  "id": 836976,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "spain",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "3754fbe6-0cf2-4fa5-b477-a8eadf9d78fb",
+      "nodeId": "aed1b40e-ae0c-4626-a04e-867c26363ddb",
+      "isMaster": 1,
+      "type": "openshift",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "SSD",
+        "hardwareCapValue": 800,
+        "hardwareCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4af5"
+  },
+  "id": 368494,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "8b254813-6fa4-48e1-a5e5-21c70a29ebea",
+      "nodeId": "0fd23ad5-011b-41cd-b0b0-92af8d428e3a",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4af6"
+  },
+  "id": 342601,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "9baa0600-e03b-4f19-8566-212f2876d5ee",
+      "nodeId": "6e176183-de36-4a36-8917-aed9d8da7917",
+      "isMaster": 1,
+      "type": "openstack",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 10,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4af7"
+  },
+  "id": 818891,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "8e0891d5-97c4-4f4d-bbbd-6b6a6a3eb53b",
+      "nodeId": "274ddac6-9542-4018-8989-7aa1e5fc2d4c",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4af8"
+  },
+  "id": 795251,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "spain",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "4a11594e-5ce8-49e5-9178-8608d9decb14",
+      "nodeId": "f544a60b-66a8-4e56-9594-3dd15608ea60",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 10,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4af9"
+  },
+  "id": 959055,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "f6d43385-a966-4925-9209-980d3966d4ee",
+      "nodeId": "3e1a32d8-5071-49ab-8369-344b51aacc06",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4afa"
+  },
+  "id": 743471,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "spain",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "dba36bde-8944-4663-a4c0-97b52d8e66d8",
+      "nodeId": "7426d656-542d-4454-87f7-2a0bad12f005",
+      "isMaster": 0,
+      "type": "openshift",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 1000,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4afb"
+  },
+  "id": 238655,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "c2d2859c-4638-4f16-88f6-aedf4fec6a5c",
+      "nodeId": "1c2255d3-b4c6-478e-ae65-2ae377d686c2",
+      "isMaster": 1,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "RAMamount": {
+          "virtualCapKey": "RAM",
+          "virtualCapValue": 64,
+          "virtualCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4afc"
+  },
+  "id": 612646,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "5c3bc8ef-bfc0-4798-9017-ea851312ccf7",
+      "nodeId": "ec71a713-4f65-4648-9b8f-6e74ccac5d5d",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 10,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4afd"
+  },
+  "id": 601549,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "dec0cfce-ec67-4d90-ae1b-39c9871cca74",
+      "nodeId": "af07fcec-342d-4e82-8993-4cd7cad9e480",
+      "isMaster": 1,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4afe"
+  },
+  "id": 131991,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "b62b026e-5203-4068-914b-8c31e1e62925",
+      "nodeId": "30b2bbd8-6d38-4a5b-b3f6-cfc80d74e871",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "storage",
+        "hardwareCapValue": 500,
+        "hardwareCapUnit": "GB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0931e1174fd77b0e4aff"
+  },
+  "id": 667892,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "07062700-baba-48f8-8d98-08bccc8b0011",
+      "nodeId": "89b635bb-94a3-4dea-902c-3eb357786c60",
+      "isMaster": 0,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 1000,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b00"
+  },
+  "id": 848840,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "19f5d789-a4ba-42ca-993a-6436373c312b",
+      "nodeId": "7804b27c-00db-4827-95af-0038dbcd0a10",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "RAMamount": {
+          "hardwareCapKey": "RAM",
+          "hardwareCapValue": 32,
+          "hardwareCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b01"
+  },
+  "id": 808892,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "dc93aea4-ad66-494c-9d0c-806d551de6ac",
+      "nodeId": "3dd6da50-3e56-46b2-ab96-ad3c0d6fbd5f",
+      "isMaster": 0,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "virtualCapKey": "HDD",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b02"
+  },
+  "id": 344783,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "1ab83552-6f0e-4046-be90-12aaefee0ed5",
+      "nodeId": "7c550ad9-1c21-4528-847f-f18fbe29781f",
+      "isMaster": 1,
+      "type": "openstack",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 10,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b03"
+  },
+  "id": 988926,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "eb5bd7c2-1411-45c2-b748-4e50eee2ccc4",
+      "nodeId": "fccbf5a6-aa8b-4ddf-9a02-b01c2e772552",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "virtualCapKey": "HDD",
+        "virtualCapValue": 800,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b04"
+  },
+  "id": 826112,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "222de76f-b334-4beb-8f10-6c9a71d4ceaa",
+      "nodeId": "4374735e-93be-4462-9c02-2c571952c0e7",
+      "isMaster": 0,
+      "type": "openstack",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 1000,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b05"
+  },
+  "id": 804841,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "c7052eee-1ecf-4b00-a45f-71abfccebd55",
+      "nodeId": "e1821cc8-0a30-45c9-bc74-fc6f6d60e6d2",
+      "isMaster": 0,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 64,
+          "virtualCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b06"
+  },
+  "id": 468246,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "e5f58931-4918-4a13-989c-ac0f230e1c7f",
+      "nodeId": "54738c90-dc86-4614-ac57-32cb71b8a409",
+      "isMaster": 1,
+      "type": "openstack",
+      "hardwareCapabilities": {
+        "NoOfCPUcores": {
+          "hardwareCapKey": "no.CPUs",
+          "hardwareCapValue": 16,
+          "hardwareCapUnit": "cores"
+        },
+        "CPUcoreSpeed": {
+          "hardwareCapKey": "speedCPU",
+          "hardwareCapValue": 3,
+          "hardwareCapUnit": "GHz"
+        },
+        "RAMamount": {
+          "hardwareCapKey": "RAM",
+          "hardwareCapValue": 32,
+          "hardwareCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b07"
+  },
+  "id": 952433,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "c9303af0-0483-4a7a-a476-9842dc2f317f",
+      "nodeId": "f934f6cc-c769-4bab-8304-1017cd5e71c8",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "virtualCapKey": "HDD",
+        "virtualCapValue": 200,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b08"
+  },
+  "id": 191825,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "3754fbe6-0cf2-4fa5-b477-a8eadf9d78fb",
+      "nodeId": "aed1b40e-ae0c-4626-a04e-867c26363ddb",
+      "isMaster": 1,
+      "type": "openshift",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "SSD",
+        "hardwareCapValue": 800,
+        "hardwareCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b09"
+  },
+  "id": 831253,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "07062700-baba-48f8-8d98-08bccc8b0011",
+      "nodeId": "89b635bb-94a3-4dea-902c-3eb357786c60",
+      "isMaster": 0,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 1000,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b0a"
+  },
+  "id": 282396,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "spain",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "27d1ca2b-dfdd-4c43-baff-49872edf4b33",
+      "nodeId": "9be50038-c2fd-435d-948a-795a75f6c1e8",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "SSD",
+        "hardwareCapValue": 100,
+        "hardwareCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b0b"
+  },
+  "id": 873477,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "fcf9378f-6758-4af6-9019-34d457d5c633",
+      "nodeId": "606a3f79-7925-4a1c-8af0-b70c41c67d57",
+      "isMaster": 0,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 1000,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b0c"
+  },
+  "id": 830790,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "spain",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "826ecf4e-279d-4df2-83d8-f69071bc185f",
+      "nodeId": "6421ba53-c6df-41cb-98e4-7e685a0a91c8",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 1000,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b0d"
+  },
+  "id": 206571,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "57d3fcfe-79ca-458e-a762-d4bc18fea1f3",
+      "nodeId": "91fbeb4e-0745-47dd-b05d-282d6f6f5dea",
+      "isMaster": 0,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b0e"
+  },
+  "id": 474054,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "27d1ca2b-dfdd-4c43-baff-49872edf4b33",
+      "nodeId": "9be50038-c2fd-435d-948a-795a75f6c1e8",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "SSD",
+        "hardwareCapValue": 100,
+        "hardwareCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b0f"
+  },
+  "id": 942324,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "8349b1fc-cfc6-40c6-b813-613bec57dfa0",
+      "nodeId": "820cde6a-aa1c-474a-9954-049798e5b5a2",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "RAMamount": {
+          "virtualCapKey": "RAM",
+          "virtualCapValue": 32,
+          "virtualCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b10"
+  },
+  "id": 214828,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "d2703372-b6d0-4646-bd75-9394957fab64",
+      "nodeId": "899b35e8-5925-42ac-85c5-dc0fe0eb4be3",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 1000,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b11"
+  },
+  "id": 35625,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "3d50ce41-411d-46db-a3b0-bfb41e6a81d0",
+      "nodeId": "b8c9b269-ad10-4e3f-b506-5b5c5d5b9cf1",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b12"
+  },
+  "id": 398256,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "27d1ca2b-dfdd-4c43-baff-49872edf4b33",
+      "nodeId": "9be50038-c2fd-435d-948a-795a75f6c1e8",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "SSD",
+        "hardwareCapValue": 100,
+        "hardwareCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b13"
+  },
+  "id": 990364,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "e06f740f-a83d-4be0-9278-0e77e94eec77",
+      "nodeId": "5a663ed2-05a9-431b-8cad-3d82e0892867",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "virtualCapKey": "storage",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b14"
+  },
+  "id": 784909,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "spain",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "1e134d66-0f60-4c9a-97b1-a3f6dc75384c",
+      "nodeId": "3d183f1b-6c62-4191-b685-39dda2ecad9f",
+      "isMaster": 1,
+      "type": "openshift",
+      "hardwareCapabilities": {
+        "NoOfCPUcores": {
+          "hardwareCapKey": "no.CPUs",
+          "hardwareCapValue": 16,
+          "hardwareCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b15"
+  },
+  "id": 318,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "eb80b8d3-ede6-4ad8-b1e7-d9ee0634b4e6",
+      "nodeId": "915770a9-3a3c-4561-92e0-43383c70f332",
+      "isMaster": 0,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "virtualCapKey": "storage",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "GB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b16"
+  },
+  "id": 131727,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "222de76f-b334-4beb-8f10-6c9a71d4ceaa",
+      "nodeId": "4374735e-93be-4462-9c02-2c571952c0e7",
+      "isMaster": 0,
+      "type": "openstack",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 1000,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b17"
+  },
+  "id": 831072,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "3d50ce41-411d-46db-a3b0-bfb41e6a81d0",
+      "nodeId": "b8c9b269-ad10-4e3f-b506-5b5c5d5b9cf1",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b18"
+  },
+  "id": 710363,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "2b041f17-47d4-473b-9874-a369dd4ec1ed",
+      "nodeId": "f934dda2-22d2-4b4a-9857-3e5dafc2063d",
+      "isMaster": 1,
+      "type": "openstack",
+      "hardwareCapabilities": {
+        "RAMamount": {
+          "hardwareCapKey": "RAM",
+          "hardwareCapValue": 128,
+          "hardwareCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b19"
+  },
+  "id": 441410,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "eb80b8d3-ede6-4ad8-b1e7-d9ee0634b4e6",
+      "nodeId": "915770a9-3a3c-4561-92e0-43383c70f332",
+      "isMaster": 0,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "virtualCapKey": "storage",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "GB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b1a"
+  },
+  "id": 17888,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "e5c7e200-7494-43cf-aaa3-ab289a2360a3",
+      "nodeId": "2f7c1715-46da-4fc9-90ab-d3843985505d",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "storage",
+        "hardwareCapValue": 200,
+        "hardwareCapUnit": "GB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0932e1174fd77b0e4b1b"
+  },
+  "id": 307858,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "f11bdcd2-16ca-4da7-8b8d-aa4b78daee39",
+      "nodeId": "1a5d8e95-3b83-4b3c-bc0c-1385607e249a",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "virtualCapKey": "SSD",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "GB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b1c"
+  },
+  "id": 241442,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "826ecf4e-279d-4df2-83d8-f69071bc185f",
+      "nodeId": "6421ba53-c6df-41cb-98e4-7e685a0a91c8",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 1000,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b1d"
+  },
+  "id": 185667,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "258712d9-32de-4f37-bd53-3997e16ecac2",
+      "nodeId": "6da450ad-32a0-4b87-93d2-70e4b353f0b2",
+      "isMaster": 1,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 8,
+          "virtualCapUnit": "cores"
+        },
+        "CPUcoreSpeed": {
+          "virtualCapKey": "speedCPU",
+          "virtualCapValue": 1.3,
+          "virtualCapUnit": "GHz"
+        },
+        "RAMamount": {
+          "virtualCapKey": "RAM",
+          "virtualCapValue": 128,
+          "virtualCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b1e"
+  },
+  "id": 391686,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "1e134d66-0f60-4c9a-97b1-a3f6dc75384c",
+      "nodeId": "3d183f1b-6c62-4191-b685-39dda2ecad9f",
+      "isMaster": 1,
+      "type": "openshift",
+      "hardwareCapabilities": {
+        "NoOfCPUcores": {
+          "hardwareCapKey": "no.CPUs",
+          "hardwareCapValue": 16,
+          "hardwareCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b1f"
+  },
+  "id": 338562,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "dc93aea4-ad66-494c-9d0c-806d551de6ac",
+      "nodeId": "3dd6da50-3e56-46b2-ab96-ad3c0d6fbd5f",
+      "isMaster": 0,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "virtualCapKey": "HDD",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b20"
+  },
+  "id": 898392,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "2afc0027-56c9-4117-ae2e-7cd45456660f",
+      "nodeId": "9cbdbea5-2cf0-4369-aab8-04cf464f0aae",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 100,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b21"
+  },
+  "id": 494268,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "fa8d50d4-cfd3-4f72-b037-89a2b3ae6319",
+      "nodeId": "317d1f19-d740-4d54-a75e-b2defdb5ab16",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b22"
+  },
+  "id": 794530,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "spain",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "27d1ca2b-dfdd-4c43-baff-49872edf4b33",
+      "nodeId": "9be50038-c2fd-435d-948a-795a75f6c1e8",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "SSD",
+        "hardwareCapValue": 100,
+        "hardwareCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b23"
+  },
+  "id": 23550,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "dc93aea4-ad66-494c-9d0c-806d551de6ac",
+      "nodeId": "3dd6da50-3e56-46b2-ab96-ad3c0d6fbd5f",
+      "isMaster": 0,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "virtualCapKey": "HDD",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b24"
+  },
+  "id": 468837,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "d3ced39d-8fb5-4efe-b766-c3434baf44ff",
+      "nodeId": "7f3a714a-6932-48b5-969b-003b0b4bd149",
+      "isMaster": 0,
+      "type": "openshift",
+      "hardwareCapabilities": {
+        "RAMamount": {
+          "hardwareCapKey": "RAM",
+          "hardwareCapValue": 128,
+          "hardwareCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b25"
+  },
+  "id": 64680,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "244968de-7492-47b4-8910-6203bf7e3ccb",
+      "nodeId": "b96ae853-779a-47b1-be80-e669aaf4384f",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b26"
+  },
+  "id": 110331,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "f5e4f7db-efd5-4e3f-9e4e-02d34cf31e27",
+      "nodeId": "10517962-ccad-49e5-8d3b-b0ab6d06b4d7",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "HDD",
+        "hardwareCapValue": 500,
+        "hardwareCapUnit": "GB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b27"
+  },
+  "id": 449701,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "9c6ccc86-99c5-40c1-accd-96dcff054a75",
+      "nodeId": "cef7170b-f259-4359-9328-3583e71e9a98",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 8,
+          "virtualCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b28"
+  },
+  "id": 208495,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "spain",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "d0665d77-e97b-4cf2-9241-2a90686be986",
+      "nodeId": "037be0c3-029d-43e1-8d90-c68b9161afe7",
+      "isMaster": 0,
+      "type": "openshift",
+      "hardwareCapabilities": {
+        "NoOfCPUcores": {
+          "hardwareCapKey": "no.CPUs",
+          "hardwareCapValue": 16,
+          "hardwareCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b29"
+  },
+  "id": 412472,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "2e59c449-a608-4d48-a441-b636b27af6ae",
+      "nodeId": "2b25f489-efd2-445c-94e2-d5cefbd19a01",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b2a"
+  },
+  "id": 446073,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "4512b936-d037-4bb3-9cdf-b5909bf21924",
+      "nodeId": "7abdeb7f-0d5b-47e3-90c8-bb5c269c8101",
+      "isMaster": 1,
+      "type": "openshift",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 1000,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b2b"
+  },
+  "id": 797361,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "c24602ed-c43f-4cc1-8203-167a80d3d210",
+      "nodeId": "ab17393f-e9d0-4c74-b586-6fc99a012b02",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 32,
+          "virtualCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b2c"
+  },
+  "id": 115554,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "a793f415-2b1f-413e-a667-7c24cea870b8",
+      "nodeId": "c1acd1e9-250a-4135-87c9-9f93ffcb37a0",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "RAMamount": {
+          "hardwareCapKey": "RAM",
+          "hardwareCapValue": 128,
+          "hardwareCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b2d"
+  },
+  "id": 303511,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "0d3812b8-aa10-4bbe-a247-5a51da6a4068",
+      "nodeId": "4320ad60-dfc9-48aa-858d-3408bc5eaf52",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 1000,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b2e"
+  },
+  "id": 904107,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "3a0203bf-8312-49a6-b0e7-5d93f96f5d23",
+      "nodeId": "a9e18b7e-aae3-4f29-a9e7-890b0709a5fd",
+      "isMaster": 0,
+      "type": "openstack",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "storage",
+        "hardwareCapValue": 500,
+        "hardwareCapUnit": "GB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b2f"
+  },
+  "id": 919623,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "ea04c8c8-89b8-48a6-8c3a-cad280540a0c",
+      "nodeId": "72150a77-b3d1-4caf-9213-ed55238e6f8e",
+      "isMaster": 1,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 8,
+          "virtualCapUnit": "cores"
+        },
+        "CPUcoreSpeed": {
+          "virtualCapKey": "speedCPU",
+          "virtualCapValue": 2,
+          "virtualCapUnit": "GHz"
+        },
+        "RAMamount": {
+          "virtualCapKey": "RAM",
+          "virtualCapValue": 64,
+          "virtualCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b30"
+  },
+  "id": 591663,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "spain",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "2afc0027-56c9-4117-ae2e-7cd45456660f",
+      "nodeId": "9cbdbea5-2cf0-4369-aab8-04cf464f0aae",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 100,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b31"
+  },
+  "id": 489783,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "8e0891d5-97c4-4f4d-bbbd-6b6a6a3eb53b",
+      "nodeId": "274ddac6-9542-4018-8989-7aa1e5fc2d4c",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b32"
+  },
+  "id": 181127,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "f5e4f7db-efd5-4e3f-9e4e-02d34cf31e27",
+      "nodeId": "10517962-ccad-49e5-8d3b-b0ab6d06b4d7",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "HDD",
+        "hardwareCapValue": 500,
+        "hardwareCapUnit": "GB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b33"
+  },
+  "id": 651657,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "07062700-baba-48f8-8d98-08bccc8b0011",
+      "nodeId": "89b635bb-94a3-4dea-902c-3eb357786c60",
+      "isMaster": 0,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 1000,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b34"
+  },
+  "id": 115480,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "3a0203bf-8312-49a6-b0e7-5d93f96f5d23",
+      "nodeId": "a9e18b7e-aae3-4f29-a9e7-890b0709a5fd",
+      "isMaster": 0,
+      "type": "openstack",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "storage",
+        "hardwareCapValue": 500,
+        "hardwareCapUnit": "GB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b35"
+  },
+  "id": 575370,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "f50ca271-3263-498b-80b8-547cd70301fe",
+      "nodeId": "e3c2e91a-0035-4037-82e4-f2d1909f15e9",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "virtualCapKey": "HDD",
+        "virtualCapValue": 200,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b36"
+  },
+  "id": 356078,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "135148e5-0086-4836-af3c-70fd85e7be6f",
+      "nodeId": "fe6f9696-7c0d-4326-a80c-dd50a1068601",
+      "isMaster": 1,
+      "type": "openshift",
+      "hardwareCapabilities": {
+        "NoOfCPUcores": {
+          "hardwareCapKey": "no.CPUs",
+          "hardwareCapValue": 16,
+          "hardwareCapUnit": "cores"
+        },
+        "CPUcoreSpeed": {
+          "hardwareCapKey": "speedCPU",
+          "hardwareCapValue": 4,
+          "hardwareCapUnit": "GHz"
+        },
+        "RAMamount": {
+          "hardwareCapKey": "RAM",
+          "hardwareCapValue": 128,
+          "hardwareCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b37"
+  },
+  "id": 298846,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "9c6ccc86-99c5-40c1-accd-96dcff054a75",
+      "nodeId": "cef7170b-f259-4359-9328-3583e71e9a98",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 8,
+          "virtualCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b38"
+  },
+  "id": 604920,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "938608ae-48b9-4e2d-a7c6-ab6a777d5096",
+      "nodeId": "0f00aabc-cefb-46b0-967f-2d7fe8152ee6",
+      "isMaster": 0,
+      "type": "openshift",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 100,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b39"
+  },
+  "id": 969866,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "c7052eee-1ecf-4b00-a45f-71abfccebd55",
+      "nodeId": "e1821cc8-0a30-45c9-bc74-fc6f6d60e6d2",
+      "isMaster": 0,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 64,
+          "virtualCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b3a"
+  },
+  "id": 382379,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "623a21e9-92bf-4071-ac72-8bc4e928d4d1",
+      "nodeId": "221da9fe-3ca2-44f1-963e-241dd7706d3c",
+      "isMaster": 0,
+      "type": "openstack",
+      "hardwareCapabilities": {
+        "RAMamount": {
+          "hardwareCapKey": "RAM",
+          "hardwareCapValue": 64,
+          "hardwareCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b3b"
+  },
+  "id": 510956,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "087becf8-f634-4ce7-9178-c27a47f352d2",
+      "nodeId": "6474f350-e32f-4cb6-97c2-cecaf360a9f6",
+      "isMaster": 0,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "virtualCapKey": "HDD",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "GB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b3c"
+  },
+  "id": 951712,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "spain",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "d0665d77-e97b-4cf2-9241-2a90686be986",
+      "nodeId": "037be0c3-029d-43e1-8d90-c68b9161afe7",
+      "isMaster": 0,
+      "type": "openshift",
+      "hardwareCapabilities": {
+        "NoOfCPUcores": {
+          "hardwareCapKey": "no.CPUs",
+          "hardwareCapValue": 16,
+          "hardwareCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b3d"
+  },
+  "id": 879821,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "c2d2859c-4638-4f16-88f6-aedf4fec6a5c",
+      "nodeId": "1c2255d3-b4c6-478e-ae65-2ae377d686c2",
+      "isMaster": 1,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "RAMamount": {
+          "virtualCapKey": "RAM",
+          "virtualCapValue": 64,
+          "virtualCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0933e1174fd77b0e4b3e"
+  },
+  "id": 197571,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "135148e5-0086-4836-af3c-70fd85e7be6f",
+      "nodeId": "fe6f9696-7c0d-4326-a80c-dd50a1068601",
+      "isMaster": 1,
+      "type": "openshift",
+      "hardwareCapabilities": {
+        "NoOfCPUcores": {
+          "hardwareCapKey": "no.CPUs",
+          "hardwareCapValue": 16,
+          "hardwareCapUnit": "cores"
+        },
+        "CPUcoreSpeed": {
+          "hardwareCapKey": "speedCPU",
+          "hardwareCapValue": 4,
+          "hardwareCapUnit": "GHz"
+        },
+        "RAMamount": {
+          "hardwareCapKey": "RAM",
+          "hardwareCapValue": 128,
+          "hardwareCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b3f"
+  },
+  "id": 424593,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "dc917999-cd87-49ba-be7f-d0cc0ac15ac7",
+      "nodeId": "26b352a0-63c7-4559-aafd-50139c3a6c80",
+      "isMaster": 1,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 32,
+          "virtualCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b40"
+  },
+  "id": 759110,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "40bb1fa8-fdf4-4597-8bf6-27079e334963",
+      "nodeId": "0740a94d-2675-478a-8a99-915243c0b591",
+      "isMaster": 1,
+      "type": "openshift",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 100,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b41"
+  },
+  "id": 779386,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "eb5bd7c2-1411-45c2-b748-4e50eee2ccc4",
+      "nodeId": "fccbf5a6-aa8b-4ddf-9a02-b01c2e772552",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "virtualCapKey": "HDD",
+        "virtualCapValue": 800,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b42"
+  },
+  "id": 51146,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "spain",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "c2b2e97c-e3b8-4adb-9b8a-327871563da7",
+      "nodeId": "1e3282ad-4452-44a9-98c8-16afa5a02cf5",
+      "isMaster": 1,
+      "type": "openstack",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "storage",
+        "hardwareCapValue": 500,
+        "hardwareCapUnit": "GB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b43"
+  },
+  "id": 920218,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "07062700-baba-48f8-8d98-08bccc8b0011",
+      "nodeId": "89b635bb-94a3-4dea-902c-3eb357786c60",
+      "isMaster": 0,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 1000,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b44"
+  },
+  "id": 831088,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "2afc0027-56c9-4117-ae2e-7cd45456660f",
+      "nodeId": "9cbdbea5-2cf0-4369-aab8-04cf464f0aae",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 100,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b45"
+  },
+  "id": 964020,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "b933223a-6cdd-4aeb-8cbe-cb1b0c62627f",
+      "nodeId": "ade97bad-6c95-4d17-ab6d-a166d5083bfa",
+      "isMaster": 1,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "virtualCapKey": "SSD",
+        "virtualCapValue": 500,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b46"
+  },
+  "id": 552935,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "a6826fb6-0b10-4d1a-994b-3f0344ac0043",
+      "nodeId": "daa37f1a-3e59-4776-b60e-0ac8253fe110",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "HDD",
+        "hardwareCapValue": 800,
+        "hardwareCapUnit": "GB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b47"
+  },
+  "id": 931119,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "f939cc04-9542-4a08-b267-06e1e6e39749",
+      "nodeId": "a8ff3f8c-d150-4f79-9d60-b667b84c68f3",
+      "isMaster": 0,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "virtualCapKey": "HDD",
+        "virtualCapValue": 200,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b48"
+  },
+  "id": 225500,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "1ab83552-6f0e-4046-be90-12aaefee0ed5",
+      "nodeId": "7c550ad9-1c21-4528-847f-f18fbe29781f",
+      "isMaster": 1,
+      "type": "openstack",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 10,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b49"
+  },
+  "id": 496055,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "f50ca271-3263-498b-80b8-547cd70301fe",
+      "nodeId": "e3c2e91a-0035-4037-82e4-f2d1909f15e9",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "virtualCapKey": "HDD",
+        "virtualCapValue": 200,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b4a"
+  },
+  "id": 496769,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "4e66dd52-3da7-4945-b270-fcea8b0caf32",
+      "nodeId": "976fce53-23b9-4bdd-b432-b23e088ff7d3",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "NoOfCPUcores": {
+          "hardwareCapKey": "no.CPUs",
+          "hardwareCapValue": 16,
+          "hardwareCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b4b"
+  },
+  "id": 669270,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "f50ca271-3263-498b-80b8-547cd70301fe",
+      "nodeId": "e3c2e91a-0035-4037-82e4-f2d1909f15e9",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "virtualCapKey": "HDD",
+        "virtualCapValue": 200,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b4c"
+  },
+  "id": 864540,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "e5c7e200-7494-43cf-aaa3-ab289a2360a3",
+      "nodeId": "2f7c1715-46da-4fc9-90ab-d3843985505d",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "storage",
+        "hardwareCapValue": 200,
+        "hardwareCapUnit": "GB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b4d"
+  },
+  "id": 293866,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "c7052eee-1ecf-4b00-a45f-71abfccebd55",
+      "nodeId": "e1821cc8-0a30-45c9-bc74-fc6f6d60e6d2",
+      "isMaster": 0,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 64,
+          "virtualCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b4e"
+  },
+  "id": 623696,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "1ab83552-6f0e-4046-be90-12aaefee0ed5",
+      "nodeId": "7c550ad9-1c21-4528-847f-f18fbe29781f",
+      "isMaster": 1,
+      "type": "openstack",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 10,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b4f"
+  },
+  "id": 906383,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "c24602ed-c43f-4cc1-8203-167a80d3d210",
+      "nodeId": "ab17393f-e9d0-4c74-b586-6fc99a012b02",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 32,
+          "virtualCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b50"
+  },
+  "id": 154115,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "1ab83552-6f0e-4046-be90-12aaefee0ed5",
+      "nodeId": "7c550ad9-1c21-4528-847f-f18fbe29781f",
+      "isMaster": 1,
+      "type": "openstack",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 10,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b51"
+  },
+  "id": 880464,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "f6d43385-a966-4925-9209-980d3966d4ee",
+      "nodeId": "3e1a32d8-5071-49ab-8369-344b51aacc06",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b52"
+  },
+  "id": 857684,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "3a0203bf-8312-49a6-b0e7-5d93f96f5d23",
+      "nodeId": "a9e18b7e-aae3-4f29-a9e7-890b0709a5fd",
+      "isMaster": 0,
+      "type": "openstack",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "storage",
+        "hardwareCapValue": 500,
+        "hardwareCapUnit": "GB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b53"
+  },
+  "id": 924849,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "e06f740f-a83d-4be0-9278-0e77e94eec77",
+      "nodeId": "5a663ed2-05a9-431b-8cad-3d82e0892867",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "virtualCapKey": "storage",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b54"
+  },
+  "id": 176375,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "d85896d7-2f4f-48d3-973c-698c2d42bd72",
+      "nodeId": "9f8554f4-568b-45e1-9c9a-80ef6ae61a04",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 1000,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b55"
+  },
+  "id": 820574,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "8349b1fc-cfc6-40c6-b813-613bec57dfa0",
+      "nodeId": "820cde6a-aa1c-474a-9954-049798e5b5a2",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "RAMamount": {
+          "virtualCapKey": "RAM",
+          "virtualCapValue": 32,
+          "virtualCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b56"
+  },
+  "id": 701297,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "e5412459-1a4f-438a-8600-df3ddf61c1dc",
+      "nodeId": "ad607b82-781a-4f47-a57b-fcf9b6b9de85",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "SSD",
+        "hardwareCapValue": 800,
+        "hardwareCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b57"
+  },
+  "id": 880394,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "d2a731d2-c36e-4cd3-a0c4-e77969e71129",
+      "nodeId": "4dc7467a-c8e7-4ac8-8515-65f6facd1d82",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "virtualCapKey": "HDD",
+        "virtualCapValue": 800,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b58"
+  },
+  "id": 858958,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "9baa0600-e03b-4f19-8566-212f2876d5ee",
+      "nodeId": "6e176183-de36-4a36-8917-aed9d8da7917",
+      "isMaster": 1,
+      "type": "openstack",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 10,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b59"
+  },
+  "id": 271950,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "dc917999-cd87-49ba-be7f-d0cc0ac15ac7",
+      "nodeId": "26b352a0-63c7-4559-aafd-50139c3a6c80",
+      "isMaster": 1,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 32,
+          "virtualCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b5a"
+  },
+  "id": 776855,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "spain",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "374d7f0f-7be9-4b87-98b3-d43b48bd5d17",
+      "nodeId": "a0bbfdb7-1a4c-40f1-b9bd-736d397c17db",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "RAMamount": {
+          "hardwareCapKey": "RAM",
+          "hardwareCapValue": 128,
+          "hardwareCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b5b"
+  },
+  "id": 130404,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "b933223a-6cdd-4aeb-8cbe-cb1b0c62627f",
+      "nodeId": "ade97bad-6c95-4d17-ab6d-a166d5083bfa",
+      "isMaster": 1,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "virtualCapKey": "SSD",
+        "virtualCapValue": 500,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b5c"
+  },
+  "id": 573872,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "e5f58931-4918-4a13-989c-ac0f230e1c7f",
+      "nodeId": "54738c90-dc86-4614-ac57-32cb71b8a409",
+      "isMaster": 1,
+      "type": "openstack",
+      "hardwareCapabilities": {
+        "NoOfCPUcores": {
+          "hardwareCapKey": "no.CPUs",
+          "hardwareCapValue": 16,
+          "hardwareCapUnit": "cores"
+        },
+        "CPUcoreSpeed": {
+          "hardwareCapKey": "speedCPU",
+          "hardwareCapValue": 3,
+          "hardwareCapUnit": "GHz"
+        },
+        "RAMamount": {
+          "hardwareCapKey": "RAM",
+          "hardwareCapValue": 32,
+          "hardwareCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b5d"
+  },
+  "id": 377594,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "ea04c8c8-89b8-48a6-8c3a-cad280540a0c",
+      "nodeId": "72150a77-b3d1-4caf-9213-ed55238e6f8e",
+      "isMaster": 1,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 8,
+          "virtualCapUnit": "cores"
+        },
+        "CPUcoreSpeed": {
+          "virtualCapKey": "speedCPU",
+          "virtualCapValue": 2,
+          "virtualCapUnit": "GHz"
+        },
+        "RAMamount": {
+          "virtualCapKey": "RAM",
+          "virtualCapValue": 64,
+          "virtualCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b5e"
+  },
+  "id": 675188,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "1e134d66-0f60-4c9a-97b1-a3f6dc75384c",
+      "nodeId": "3d183f1b-6c62-4191-b685-39dda2ecad9f",
+      "isMaster": 1,
+      "type": "openshift",
+      "hardwareCapabilities": {
+        "NoOfCPUcores": {
+          "hardwareCapKey": "no.CPUs",
+          "hardwareCapValue": 16,
+          "hardwareCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b5f"
+  },
+  "id": 196928,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "57d3fcfe-79ca-458e-a762-d4bc18fea1f3",
+      "nodeId": "91fbeb4e-0745-47dd-b05d-282d6f6f5dea",
+      "isMaster": 0,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b60"
+  },
+  "id": 193525,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "spain",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "19f5d789-a4ba-42ca-993a-6436373c312b",
+      "nodeId": "7804b27c-00db-4827-95af-0038dbcd0a10",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "RAMamount": {
+          "hardwareCapKey": "RAM",
+          "hardwareCapValue": 32,
+          "hardwareCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b61"
+  },
+  "id": 648137,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "258712d9-32de-4f37-bd53-3997e16ecac2",
+      "nodeId": "6da450ad-32a0-4b87-93d2-70e4b353f0b2",
+      "isMaster": 1,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 8,
+          "virtualCapUnit": "cores"
+        },
+        "CPUcoreSpeed": {
+          "virtualCapKey": "speedCPU",
+          "virtualCapValue": 1.3,
+          "virtualCapUnit": "GHz"
+        },
+        "RAMamount": {
+          "virtualCapKey": "RAM",
+          "virtualCapValue": 128,
+          "virtualCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b62"
+  },
+  "id": 203065,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "spain",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "dba36bde-8944-4663-a4c0-97b52d8e66d8",
+      "nodeId": "7426d656-542d-4454-87f7-2a0bad12f005",
+      "isMaster": 0,
+      "type": "openshift",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "networking",
+        "hardwareCapValue": 1000,
+        "hardwareCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b63"
+  },
+  "id": 445442,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "a62d9759-e1d0-4b39-9f15-fdbd76ef9f64",
+      "nodeId": "e5e4018e-3103-422c-98f2-ddcd4325f94b",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "virtualCapKey": "storage",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b64"
+  },
+  "id": 564519,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "spain",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "a793f415-2b1f-413e-a667-7c24cea870b8",
+      "nodeId": "c1acd1e9-250a-4135-87c9-9f93ffcb37a0",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "RAMamount": {
+          "hardwareCapKey": "RAM",
+          "hardwareCapValue": 128,
+          "hardwareCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b65"
+  },
+  "id": 408996,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "57d3fcfe-79ca-458e-a762-d4bc18fea1f3",
+      "nodeId": "91fbeb4e-0745-47dd-b05d-282d6f6f5dea",
+      "isMaster": 0,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "virtualCapKey": "networking",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "Mbps"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0934e1174fd77b0e4b66"
+  },
+  "id": 327491,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "e5f58931-4918-4a13-989c-ac0f230e1c7f",
+      "nodeId": "54738c90-dc86-4614-ac57-32cb71b8a409",
+      "isMaster": 1,
+      "type": "openstack",
+      "hardwareCapabilities": {
+        "NoOfCPUcores": {
+          "hardwareCapKey": "no.CPUs",
+          "hardwareCapValue": 16,
+          "hardwareCapUnit": "cores"
+        },
+        "CPUcoreSpeed": {
+          "hardwareCapKey": "speedCPU",
+          "hardwareCapValue": 3,
+          "hardwareCapUnit": "GHz"
+        },
+        "RAMamount": {
+          "hardwareCapKey": "RAM",
+          "hardwareCapValue": 32,
+          "hardwareCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0935e1174fd77b0e4b67"
+  },
+  "id": 639126,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "c24602ed-c43f-4cc1-8203-167a80d3d210",
+      "nodeId": "ab17393f-e9d0-4c74-b586-6fc99a012b02",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 32,
+          "virtualCapUnit": "cores"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0935e1174fd77b0e4b68"
+  },
+  "id": 260950,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "f5e4f7db-efd5-4e3f-9e4e-02d34cf31e27",
+      "nodeId": "10517962-ccad-49e5-8d3b-b0ab6d06b4d7",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "HDD",
+        "hardwareCapValue": 500,
+        "hardwareCapUnit": "GB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0935e1174fd77b0e4b69"
+  },
+  "id": 451634,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "4e79b665-dd31-4d2d-bdac-d33407cb6248",
+      "nodeId": "e449d1e0-83ac-4b38-9116-d23d485b4495",
+      "isMaster": 1,
+      "type": "openstack",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 32,
+          "virtualCapUnit": "cores"
+        },
+        "CPUcoreSpeed": {
+          "virtualCapKey": "speedCPU",
+          "virtualCapValue": 3,
+          "virtualCapUnit": "GHz"
+        },
+        "RAMamount": {
+          "virtualCapKey": "RAM",
+          "virtualCapValue": 64,
+          "virtualCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0935e1174fd77b0e4b6a"
+  },
+  "id": 305673,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "ddc8159b-e4b1-486c-bb91-6ec34f3221dc",
+      "nodeId": "bed66bb7-a4b8-4e49-b793-34aca6936bd4",
+      "isMaster": 0,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "hardwareCapKey": "HDD",
+        "hardwareCapValue": 500,
+        "hardwareCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0935e1174fd77b0e4b6b"
+  },
+  "id": 928288,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "333c8323-d39b-41b0-a4d7-0f18e7a3c25b",
+      "nodeId": "81193473-e872-40e6-9a25-23b38c4f8af0",
+      "isMaster": 0,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "virtualCapKey": "storage",
+        "virtualCapValue": 100,
+        "virtualCapUnit": "TB"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0935e1174fd77b0e4b6c"
+  },
+  "id": 358588,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "patras",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "374d7f0f-7be9-4b87-98b3-d43b48bd5d17",
+      "nodeId": "a0bbfdb7-1a4c-40f1-b9bd-736d397c17db",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "RAMamount": {
+          "hardwareCapKey": "RAM",
+          "hardwareCapValue": 128,
+          "hardwareCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0935e1174fd77b0e4b6d"
+  },
+  "id": 507193,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "258712d9-32de-4f37-bd53-3997e16ecac2",
+      "nodeId": "6da450ad-32a0-4b87-93d2-70e4b353f0b2",
+      "isMaster": 1,
+      "type": "openshift",
+      "virtualCapabilities": {
+        "NoOfCPUcores": {
+          "virtualCapKey": "no.CPUs",
+          "virtualCapValue": 8,
+          "virtualCapUnit": "cores"
+        },
+        "CPUcoreSpeed": {
+          "virtualCapKey": "speedCPU",
+          "virtualCapValue": 1.3,
+          "virtualCapUnit": "GHz"
+        },
+        "RAMamount": {
+          "virtualCapKey": "RAM",
+          "virtualCapValue": 128,
+          "virtualCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0935e1174fd77b0e4b6e"
+  },
+  "id": 187731,
+  "resourcename": "physical node",
+  "resourceType": "cloud",
+  "location": "athens",
+  "resourcePhysicalCapabilities": [
+    {
+      "cloudId": "374d7f0f-7be9-4b87-98b3-d43b48bd5d17",
+      "nodeId": "a0bbfdb7-1a4c-40f1-b9bd-736d397c17db",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "hardwareCapabilities": {
+        "RAMamount": {
+          "hardwareCapKey": "RAM",
+          "hardwareCapValue": 128,
+          "hardwareCapUnit": "GB"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "604a0935e1174fd77b0e4b6f"
+  },
+  "id": 293767,
+  "resourcename": "virtual node",
+  "resourceType": "cloud",
+  "location": "virtual resource has a fixed location?",
+  "resourceVirtualCapabilities": [
+    {
+      "cloudId": "a761fa82-dfd6-42da-b037-e7b71c27e8fb",
+      "nodeId": "ca45de14-a237-4130-b412-ad2cf38a3448",
+      "isMaster": 1,
+      "type": "kubernetes",
+      "virtualCapabilities": {
+        "virtualCapKey": "storage",
+        "virtualCapValue": 500,
+        "virtualCapUnit": "GB"
+      }
+    }
+  ]
+}]
