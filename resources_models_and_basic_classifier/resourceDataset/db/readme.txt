@@ -1,4 +1,4 @@
-Offers are placed in following order:
+Resources are placed in following order:
 EDGE
 CLOUD
 RAN
