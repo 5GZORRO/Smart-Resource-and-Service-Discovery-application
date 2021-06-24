@@ -1,0 +1,278 @@
+{
+    "id": 0,
+    "href": "string",
+    "name": "string",
+    "description": "string",
+    "lifecycleStatus": "string",
+    "version": "string",
+    "category": [
+        {
+            "id": "string",
+            "href": "string",
+            "version": "string",
+            "@referredType": "string",
+            "name": "string"
+        }
+    ],
+    "validFor": {
+        "endDateTime": "string",
+        "startDateTime": "string"
+    },
+    "place": [
+        {
+            "id": "string",
+            "@referredType": "string",
+            "href": "string",
+            "geoLocationUrl": "string",
+            "address": "string",
+            "role": "string",
+            "name": "string",
+            "latitude": 0,
+            "longitude": 0
+        }
+    ],
+    "productOfferingPrice": [
+        {
+            "name": "string",
+            "description": "string",
+            "id": "num",
+            "href": "string",
+            "@type": "string",
+            "@schemaLocation": "string",
+            "@baseType": "",
+            "version": "1.0",
+            "validFor": {
+                "endDateTime": "string",
+                "startDateTime": "string"
+            },
+            "priceType": "recurring",
+            "unitOfMeasure": "",
+            "recurringChargePeriod": "monthly",
+            "price": {
+                "dutyFreeAmount": 0,
+                "percentage": 0.0,
+                "taxIncludedAmount": 0,
+                "taxRate": 0
+            }
+        }
+    ],
+    "serviceLevelAgreement": {
+        "href": "https://mycsp.com:8080/tmf-api/slaManagement/v4/sla/8082",
+        "name": "Business SLA",
+        "description": "ServiceLevelAgreement",
+        "version": "2.1",
+        "state": "Standard SLA",
+        "approved": 1,
+        "validityPeriod": {
+            "endDateTime": "2021-06-03T00:00",
+            "startDateTime": "2021-05-23T00:00"
+        },
+        "template": {
+            "href": "http/www.acme.com/slaManagement/slaTemplate/18",
+            "name": "DataSLATemplate4",
+            "description": "basic template forData SLA"
+        },
+        "relatedParty": {
+            "href": "http://",
+            "role": "SLAProvider",
+            "name": "ICOM",
+            "validFor": {
+                "endDateTime": "2021-08-19T00:00",
+                "startDateTime": "2021-05-14T00:00"
+            }
+        },
+        "rule": {
+            "id": "availability",
+            "metric": "http://www.provider.com/metrics/availability",
+            "unit": "%",
+            "referenceValue": "98.50",
+            "operator": ".ge",
+            "tolerance": "1.50",
+            "consequence": "http://www.provider.com/contract/claus/30"
+        }
+    },
+    "product_id": "string",
+    "resource_id": "string",
+    "trust_score": 0.9,
+    "Blueprint_name": "string",
+    "isBundle": 0,
+    "isSellable": 0,
+    "productSpecification": {
+        "name": "productSpecification",
+        "version": "string",
+        "@baseType": "",
+        "@referredType": "",
+        "resourceSpecification": {
+            "id": "string",
+            "href": "string",
+            "category": "string",
+            "name": "string",
+            "description": "string",
+            "version": "string",
+            "resourceSpecCharacteristic": [
+                {
+                    "id": "string",
+                    "name": "string",
+                    "@type": "ResourceCategory",
+                    "@baseType": "Category",
+                    "version": "1.0",
+                    "description": "string",
+                    "congigurable": "false",
+                    "extensible": "false",
+                    "isUnique": "true",
+                    "valueType": "string",
+                    "resourceSpecCharacteristicValue": [
+                        {
+                            "@type": "ResourceCategory",
+                            "@baseType": "Category",
+                            "isDefault": "false",
+                            "unitOfMeasure": "string",
+                            "value": 0,
+                            "validFor": {
+                                "endDateTime": "string",
+                                "startDateTime": "string"
+                            }
+                        }
+                    ],
+                    "validFor": {
+                        "endDateTime": "string",
+                        "startDateTime": "string"
+                    }
+                },
+                {
+                    "id": "string",
+                    "name": "string",
+                    "@type": "ResourceCategory",
+                    "@baseType": "Category",
+                    "version": "1.0",
+                    "description": "string",
+                    "congigurable": "false",
+                    "extensible": "false",
+                    "isUnique": "true",
+                    "valueType": "string",
+                    "resourceSpecCharacteristicValue": [
+                        {
+                            "@type": "ResourceCategory",
+                            "@baseType": "Category",
+                            "isDefault": "false",
+                            "unitOfMeasure": "string",
+                            "value": 0,
+                            "validFor": {
+                                "endDateTime": "string",
+                                "startDateTime": "string"
+                            }
+                        }
+                    ],
+                    "validFor": {
+                        "endDateTime": "string",
+                        "startDateTime": "string"
+                    }
+                },
+                {
+                    "id": "string",
+                    "name": "string",
+                    "@type": "ResourceCategory",
+                    "@baseType": "Category",
+                    "version": "1.0",
+                    "description": "string",
+                    "congigurable": "false",
+                    "extensible": "false",
+                    "isUnique": "true",
+                    "valueType": "string",
+                    "resourceSpecCharacteristicValue": [
+                        {
+                            "@type": "ResourceCategory",
+                            "@baseType": "Category",
+                            "isDefault": "false",
+                            "unitOfMeasure": "string",
+                            "value": 0,
+                            "validFor": {
+                                "endDateTime": "string",
+                                "startDateTime": "string"
+                            }
+                        }
+                    ],
+                    "validFor": {
+                        "endDateTime": "string",
+                        "startDateTime": "string"
+                    }
+                },
+                {
+                    "id": "string",
+                    "name": "string",
+                    "@type": "ResourceCategory",
+                    "@baseType": "Category",
+                    "version": "1.0",
+                    "description": "string",
+                    "congigurable": "false",
+                    "extensible": "false",
+                    "isUnique": "true",
+                    "valueType": "string",
+                    "resourceSpecCharacteristicValue": [
+                        {
+                            "@type": "ResourceCategory",
+                            "@baseType": "Category",
+                            "isDefault": "false",
+                            "unitOfMeasure": "string",
+                            "value": 0,
+                            "validFor": {
+                                "endDateTime": "string",
+                                "startDateTime": "string"
+                            }
+                        }
+                    ],
+                    "validFor": {
+                        "endDateTime": "string",
+                        "startDateTime": "string"
+                    }
+                },
+                {
+                    "id": "string",
+                    "name": "string",
+                    "@type": "ResourceCategory",
+                    "@baseType": "Category",
+                    "version": "1.0",
+                    "description": "string",
+                    "congigurable": "false",
+                    "extensible": "false",
+                    "isUnique": "true",
+                    "valueType": "string",
+                    "resourceSpecCharacteristicValue": [
+                        {
+                            "@type": "ResourceCategory",
+                            "@baseType": "Category",
+                            "isDefault": "false",
+                            "unitOfMeasure": "string",
+                            "value": 0,
+                            "validFor": {
+                                "endDateTime": "string",
+                                "startDateTime": "string"
+                            }
+                        }
+                    ],
+                    "validFor": {
+                        "endDateTime": "string",
+                        "startDateTime": "string"
+                    }
+                }
+            ]
+        },
+        "relatedParty": [
+            {
+                "id": "string",
+                "href": "string",
+                "role": "string",
+                "name": "string",
+                "validFor": {
+                    "endDateTime": "string",
+                    "startDateTime": "string"
+                }
+            }
+        ]
+    },
+    "resourceCandidate": {
+        "id": "string",
+        "href": "string",
+        "name": "string"
+    }
+}

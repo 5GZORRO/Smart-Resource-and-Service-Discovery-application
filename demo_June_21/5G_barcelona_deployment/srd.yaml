@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: srd
+  labels:
+    app: srd
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: srd
+  template:
+    metadata:
+      labels:
+        app: srd
+    spec:
+      containers:
+        - name: srd
+          image: alberspamer/srd:srd_api
+          ports:
+            - containerPort: 5000
+          imagePullPolicy: Always
