@@ -1,7 +1,0 @@
-#used packages:
-#java 8
-#python 3.7.5(windows)
-#Anaconda3-2020.02-Windows-x86_64.exe that contains python 3.7.6
-#spark 2.4.7(windows)-pyspark 2.4.7(windows)
-#scala-2.11.8(windows)
-#MongoDB 3.6

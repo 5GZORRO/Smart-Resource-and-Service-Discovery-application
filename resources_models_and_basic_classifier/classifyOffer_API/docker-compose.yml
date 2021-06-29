@@ -1,9 +1,0 @@
-web:
-  image: classifyofferapi_web:latest
-  ports:
-    - "5000:5000"
-  links:
-    - db
-db:
-  image: mongo:3.2.6
-
