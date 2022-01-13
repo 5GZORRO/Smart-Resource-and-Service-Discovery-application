@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: srdtemp2
+  labels:
+    app: srdtemp2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: srdtemp2
+  template:
+    metadata:
+      labels:
+        app: srdtemp2
+    spec:
+      containers:
+        - name: srdtemp2
+          image: alberspamer/srdtemp2:srdtemp2_api
+          ports:
+            - containerPort: 5556
+          imagePullPolicy: Always
+

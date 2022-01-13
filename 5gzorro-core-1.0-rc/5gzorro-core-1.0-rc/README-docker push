@@ -1,0 +1,5 @@
+docker build -t srdtemp2_api .
+docker tag srdtemp2_api alberspamer/srdtemp2:srdtemp2_api
+docker push alberspamer/srdtemp2:srdtemp2_api
+
+

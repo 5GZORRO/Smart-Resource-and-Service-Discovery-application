@@ -1,0 +1,9 @@
+flask
+flask_restful
+flask-cors
+pymongo==3.4.0
+spacy
+rita-dsl
+word2number
+nums_from_string
+wordtodigits
