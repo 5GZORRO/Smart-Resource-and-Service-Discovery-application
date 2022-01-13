@@ -1,4 +1,0 @@
-web:
-  image: srdtemp2_api:latest
-  ports:
-    - "5556:5556"
