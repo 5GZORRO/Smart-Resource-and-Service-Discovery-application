@@ -47,8 +47,5 @@ kubectl --kubeconfig=./platcmpv2_kubeconfig create -f srdtemp2-svc.yaml
 
 **Georgios Samaras** - gsamaras@intracom-telecom.com
 
-**Adriana Fernandez** - adriana.fernandez@i2cat.net
-
-
 ## License
 This module is distributed under [Apache 2.0 LICENSE](LICENSE) terms.
