@@ -1,8 +1,6 @@
-
-
 First step:
 
-You make the code changes inside SRD_temp.py file and then you are good to go!
+You make the code changes inside SRD_rc.py file and then you are good to go!
 
 Step two:
 
@@ -17,4 +15,3 @@ Step three:
 open terminal inside 5G_barcelona_deployment folder
 
 follow README instructrions.
-
