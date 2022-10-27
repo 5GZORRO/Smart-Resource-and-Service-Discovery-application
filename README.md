@@ -42,6 +42,22 @@ kubectl --kubeconfig=./platcmpv2_kubeconfig create -f srdtemp2.yaml
 kubectl --kubeconfig=./platcmpv2_kubeconfig create -f srdtemp2-svc.yaml
 ```
 
+## Usage
+
+### General Instructions
+Genetal instructions can be found in the [General Instructions README](https://github.com/5GZORRO/Smart-Resource-and-Service-Discovery-application/blob/main/5gzorro-core-1.0-rc/release_rc/readme_instructions_general.md).
+
+### Docker instructions
+Docker instructions can be found in [Docker README](https://github.com/5GZORRO/Smart-Resource-and-Service-Discovery-application/blob/main/5gzorro-core-1.0-rc/release_rc/README-docker-push.md).
+
+### Simple example
+```
+curl "http://172.28.3.103:32068/intent/$(urlencode 'I want an edge resource with 7 processors in Barcelona')"
+```
+
+You can find examples for all the supported resource types in the [Deployment README](https://github.com/5GZORRO/Smart-Resource-and-Service-Discovery-application/blob/main/5gzorro-core-1.0-rc/release_rc/5G_barcelona_deployment/README.md), along with other useful information to get you started.
+
+
 ## Maintainers
 **Alberto Erspamer** - aerspamer@intracom-telecom.com
 
